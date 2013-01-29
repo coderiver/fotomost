@@ -117,7 +117,8 @@ ul.login{
    list-style: none;
    li{
       float: left;
-      margin-right: 10px;     
+      margin-right: 10px;
+      
       a{
          font: 11px Arial,sans-serif;
          color: #003366;
@@ -251,6 +252,7 @@ form.search{
 }
 .wrap-slider{
    width: 985px;
+   height: 258px;
    padding: 5px;
    border-top: 5px solid #d3eaf8;
    border-left: 5px solid #d3eaf8;  

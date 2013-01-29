@@ -8,7 +8,7 @@
 .scrollable img{
    width: 999px;
    height: 98px;
-   margin: 15px 0;  
+   margin-top: 15px;  
    float: left; 
 }
 
@@ -19,66 +19,24 @@
 	background-color: white;
 	float: left;
 	ul{
-		list-style: none;
-		float: left;
-		border-bottom: 1px solid #a7d6f1;		
 		li{
-			width: 345px;	
-			height: 163px;
-			padding-bottom: 25px;
-			border-right: 1px solid #a7d6f1;
+			width: 330px;			
+			display: inline-block;
 			float: left;
-        	&:first-child{
- 				width: 329px;       		
-        	}
-        	&:last-child{
-        		width: 320px;
- 				border-right: none;       		
-        	}				
 		}
-	}
-	ul.border-b__none{
-		border-bottom: none;
 	}
 }
 .item-foto{
+	width: 200px;
 	float: left;
 	img{
-		width: 170px;
-		margin-left: 10px;
+
 	}
 }
 .wrap-description{
-	width: 120px;
-	float: right;
-	text-align: right;
-	font: 16px Tahoma,sans-serif;
-	color: #666;
-	margin-right: 20px;
-	margin-top: 5px;
-	.price{
-		position: relative;
-		top: 35px;
-		b{
-			font: 26px Tahoma,sans-serif;
-			color: #f60;
-			font-weight: normal;
-			display: block;
-		}
-		i{
-			font: 18px Tahoma,sans-serif;
-			color: #999;
-
-		}		
-	}
-
+	width: 130px;
+	float: left;
 }
 .add-chip{
-	width: 70px;
-	height: 15px;
-	padding: 7px 4px;
-	background: url('../img/icons/add-chip.png') 0 0 no-repeat;	
-	font: 12px Tahoma,sans-serif;
-	color: #fff;
-	margin-left: 20px;
+
 }

@@ -58,8 +58,11 @@ form.search button span { display: none; line-height: 1; font-weight: bold; colo
 .primary-nav ul li:first-child { background: none; }
 .primary-nav ul li a { font: 18px Arial, sans-serif; text-decoration: none; color: #fff; line-height: 24px; }
 
-.pre-chip { width: 17px; height: 40px; background: url("../img/icons/chip-border.png") 0 0 no-repeat; position: absolute; right: 100px; top: 0; }
+.pre-chip { width: 35px; height: 40px; background: url("../img/icons/chip-border2.png") 0 0 no-repeat; position: absolute; right: 70px; top: 0; }
 
-.chip { width: 105px; height: 40px; background: url("../img/icons/chip_bg.png") 0 0 repeat-x; position: absolute; top: 0px; right: -5px; border-radius: 0 10px 10px 0; font: 10px Arial, sans-serif; line-height: 10px; }
+.chip { width: 80px; height: 40px; background: url("../img/icons/chip_bg.png") 0 0 repeat-x; position: absolute; top: 0px; right: -5px; border-radius: 0 10px 10px 0; font: 10px Arial, sans-serif; line-height: 10px; }
+.chip .chip-note { position: absolute; top: 10px; right: 10px; }
 
-.slider { width: 990px; height: 215px; background: url("../img/slider1.jpg") 0 0 no-repeat; }
+.footer { float: left; }
+.footer ul { list-style: none; }
+.footer ul li { float: left; }

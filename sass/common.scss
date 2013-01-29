@@ -289,15 +289,15 @@ form.search{
    }
 }
 .pre-chip{
-   width: 17px;
+   width: 35px;
    height: 40px;
-   background: url('../img/icons/chip-border.png') 0 0 no-repeat;    
+   background: url('../img/icons/chip-border2.png') 0 0 no-repeat;    
    position: absolute;
-   right: 100px;
+   right: 70px;
    top: 0;        
 }
 .chip{
-   width: 105px;
+   width: 80px;
    height: 40px;
    background: url('../img/icons/chip_bg.png') 0 0 repeat-x;  
    position: absolute;
@@ -306,9 +306,25 @@ form.search{
    border-radius: 0 10px 10px 0;
    font: 10px Arial,sans-serif;
    line-height: 10px;
+   .chip-note{
+      position: absolute;
+      top: 10px;
+      right: 10px;    
+   }
 }
-.slider{
-   width: 990px;
-   height: 215px;
-   background: url('../img/slider1.jpg') 0 0 no-repeat;    
+
+//footer
+
+.footer{
+   float: left;
+
+   ul{
+      list-style: none;
+      li{
+         float: left;
+         a{
+            
+         }
+      }
+   }
 }

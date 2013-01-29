@@ -3,14 +3,20 @@
 .slider{
    width: 990px;
    height: 215px;
-   background: url('../img/slider1.jpg') 0 0 no-repeat;  
    float: left;  
 }
-.scrollable{
+.scrollable img{
    width: 999px;
    height: 98px;
-   margin-top: 15px;
-   margin-left: -8px;
-   background: url('../img/slider2.jpg') 0 0 no-repeat;     
+   margin-top: 15px;  
    float: left; 
+}
+
+// wrap-conteiner
+
+.wrap-conteiner{
+	width: 1000px;
+	height: 100px;
+	background-color: white;
+	float: left;
 }

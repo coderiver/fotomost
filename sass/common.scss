@@ -316,15 +316,31 @@ form.search{
 //footer
 
 .footer{
+   width: 1000px;
+   @include background-image(linear-gradient(top, #cee8f7 0%,
+   #7ac1ea 50%, #6abae7 100%));   
    float: left;
+   border-radius: 5px 5px 0 0;
+   font: 10px Arial, sans-serif;
+   line-height: 15px;
 
    ul{
+      float: left;     
       list-style: none;
+      margin: 15px 10px;
       li{
-         float: left;
+         padding: 0px 5px;
+         &:first-child{
+          font-weight: bold; 
+         }         
          a{
-            
+            text-decoration: none;
+            color: #036;
          }
       }
    }
+
+}
+ul.by-type li a {
+   font-weight: bold;
 }

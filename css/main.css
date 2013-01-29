@@ -2,4 +2,9 @@
 
 .scrollable img { width: 999px; height: 98px; margin-top: 15px; float: left; }
 
-.wrap-conteiner { width: 1000px; height: 100px; background-color: white; float: left; }
+.wrap-conteiner { width: 1000px; background-color: white; float: left; }
+.wrap-conteiner ul li { width: 330px; display: inline-block; float: left; }
+
+.item-foto { width: 200px; float: left; }
+
+.wrap-description { width: 130px; float: left; }

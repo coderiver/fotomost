@@ -16,7 +16,27 @@
 
 .wrap-conteiner{
 	width: 1000px;
-	height: 100px;
 	background-color: white;
 	float: left;
+	ul{
+		li{
+			width: 330px;			
+			display: inline-block;
+			float: left;
+		}
+	}
+}
+.item-foto{
+	width: 200px;
+	float: left;
+	img{
+
+	}
+}
+.wrap-description{
+	width: 130px;
+	float: left;
+}
+.add-chip{
+
 }

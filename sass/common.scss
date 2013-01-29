@@ -341,6 +341,30 @@ form.search{
    }
 
 }
+
 ul.by-type li a {
    font-weight: bold;
+}
+
+.right-conteiner{
+   margin: 15px 15px 0;
+   text-align:right;
+}
+ul.bottom-menu{
+   float: right;
+   list-style: none;
+   margin: 5px 15px;
+   li{
+      float: left;
+      &:first-child{
+       font-weight: normal; 
+      }   
+      span{
+         margin-left: 5px;
+      }           
+   }
+}
+.address{
+   margin-top: 10px;
+   color: #fff;
 }

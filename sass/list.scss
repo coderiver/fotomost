@@ -43,11 +43,11 @@ $color: #ff6600;
 }
 
 // Header
-.category{
+.container{
 	background: url(../img/category-bg.png) no-repeat 5px 100%;
 }
 
-	.category__header{
+	.container__holder{
 		background: url(../img/category-bg-2.png) no-repeat 100% 100%;
 		padding: 5px;
 		border-top: 5px solid $border;
@@ -56,7 +56,7 @@ $color: #ff6600;
 		border-radius: 10px 10px 0 0;
 	}
 
-	.category__holder{
+	.container__header{
 		margin: 0 0 0 20px;
 	}
 
@@ -147,16 +147,20 @@ form{
 			.product__img{
 				margin: 0 5px 5px;
 			}
+		}
 
-			.product__stars{
+		.stars_product{
+			margin: 0 20px;
+		}
+
+		.stars{
+			display: block;
+			.star{
 				display: inline-block;
-				.star{
-					display: inline-block;
-					@include sized-sprite($icons, star-ico); 
-				}
-				.chosen{
-					@include sized-sprite($icons, star-chosen-ico);
-				}
+				@include sized-sprite($icons, star-ico); 
+			}
+			.chosen{
+				@include sized-sprite($icons, star-chosen-ico);
 			}
 		}
 
@@ -165,7 +169,7 @@ form{
 			width: 600px;
 			margin: 20px 0;
 		}
-			.product__info-row1{
+			.product__content{
 				border-bottom: 1px dotted #d9d9d9;
 				margin-bottom: 10px;
 				overflow: hidden;
@@ -221,11 +225,11 @@ form{
 					}
 				}
 
-			.product__info-row2{
+			.product__meta{
 				overflow: hidden;
 			}
 
-			.product__buy{
+			.buy-buttons{
 				position: relative;
 				width: 160px;
 				height: 29px;

@@ -4,6 +4,9 @@
 <head>
 <meta charset="utf-8">
 <title>Fotomost - ftmst_p_list</title>
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 <link rel="stylesheet" media="screen" href="css/screen.css" >
 </head>
 <body>
@@ -86,26 +89,28 @@
 <div class="wrap-conteiner">
 
 <!-- BEGIN category -->
-<div class="category">
-	<div class="category__header">
-		<div class="category__holder">
+<div class="container">
+		<nav class="breadcrumbs">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Cameras &amp; Lenses</a></li>
+			<li><a href="#">Digital Cameras &amp; Accessories</a></li>
+			<li><a href="#">Digital Cameras</a></li>
+		</ul>
+	</nav>
+	<div class="container__holder">
+		<div class="container__header">
 			<h2 class="title-1">Digital Cameras</h2>
 		</div>
-			<nav class="breadcrumbs">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Cameras &amp; Lenses</a></li>
-					<li><a href="#">Digital Cameras &amp; Accessories</a></li>
-					<li><a href="#">Digital Cameras</a></li>
-				</ul>
-			</nav>
 	</div>
 </div>
 <!-- END category -->
 
-<!-- BEGIN category__content -->
-<div class="l">
-	<div class="l-col1">
+<!-- BEGIN LAYOUT -->
+<div class="layout">
+
+	<!-- BEGIN sidebar -->
+	<aside class="sidebar">
 		<nav class="filters">
 			<ul>
 				<li>
@@ -157,10 +162,12 @@
 				</li>
 			</ul>
 		</nav>
-	</div>
+	</aside>
+	<!-- END sidebar -->
 
-
-	<div class="l-col2">
+	<!-- BEGIN main-col -->
+	<div class="main-col">
+		<!-- BEGIN sort-view -->
 		<div class="sort-view">
 			<div class="sort">
 				Сортировать:
@@ -183,14 +190,20 @@
 				</form>
 			</div>
 		</div>
+		<!-- END sort-view -->
 
+		<!-- BEGIN product-block -->
 		<div class="product-block">
+
+		<!-- BEGIN page-nav -->
 		<div class="page-nav page-nav_product">страница 1 из 80</div>
-		<!-- PRODUCT -->
+		<!-- END page-nav -->
+
+			<!-- PRODUCT #1 -->
 			<div class="product">
 				<div class="product__media">
-					<div class="product__img"><img width="150" heigh="100" src="http://placehold.it/150x100" alt=""></div>
-					<div class="product__stars">
+					<div class="product__img"><img width="150" heigh="100" src="img/spoiler/product-1.png" alt="Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)"></div>
+					<div class="stars stars_product">
 						<a href="#" class="star chosen"></a>
 						<a href="#" class="star chosen"></a>
 						<a href="#" class="star chosen"></a>
@@ -199,7 +212,7 @@
 					</div>
 				</div>
 				<div class="product__info">
-					<div class="product__info-row1">
+					<div class="product__content">
 						<div class="product__description">
 							<h2><a href="#">Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)</a></h2>
 							<span class="product__code">Код товара: 1545478</span>
@@ -220,7 +233,7 @@
 									<i>грн</i>
 								</strong>
 							</div>
-							<div class="product__buy">
+							<div class="buy-buttons">
 								<a href="#" class="btn-basket">
 									<strong>В корзину</strong>
 								</a>
@@ -228,7 +241,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="product__info-row2">
+					<div class="product__meta">
 						<div class="product__links">
 							<a href="#" class="link-comments">12 отзывов</a>
 							<div class="link-compare">
@@ -239,21 +252,21 @@
 					</div>
 				</div>
 			</div>
-			<!-- END PRODUCT -->
-		<!-- PRODUCT -->
+			<!-- END PRODUCT #1-->
+			<!-- PRODUCT #2 -->
 			<div class="product">
 				<div class="product__media">
-					<div class="product__img"><img width="150" heigh="100" src="http://placehold.it/150x100" alt=""></div>
-					<div class="product__stars">
+					<div class="product__img"><img width="150" heigh="100" src="img/spoiler/product-1.png" alt="Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)"></div>
+					<div class="stars stars_product">
 						<a href="#" class="star chosen"></a>
 						<a href="#" class="star chosen"></a>
-						<a href="#" class="star chosen"></a>
-						<a href="#" class="star chosen"></a>
+						<a href="#" class="star"></a>
+						<a href="#" class="star"></a>
 						<a href="#" class="star"></a>
 					</div>
 				</div>
 				<div class="product__info">
-					<div class="product__info-row1">
+					<div class="product__content">
 						<div class="product__description">
 							<h2><a href="#">Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)</a></h2>
 							<span class="product__code">Код товара: 1545478</span>
@@ -274,7 +287,7 @@
 									<i>грн</i>
 								</strong>
 							</div>
-							<div class="product__buy">
+							<div class="buy-buttons">
 								<a href="#" class="btn-basket">
 									<strong>В корзину</strong>
 								</a>
@@ -282,7 +295,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="product__info-row2">
+					<div class="product__meta">
 						<div class="product__links">
 							<a href="#" class="link-comments">12 отзывов</a>
 							<div class="link-compare">
@@ -293,21 +306,21 @@
 					</div>
 				</div>
 			</div>
-			<!-- END PRODUCT -->
-		<!-- PRODUCT -->
+			<!-- END PRODUCT #2 -->
+			<!-- PRODUCT #3 -->
 			<div class="product">
 				<div class="product__media">
-					<div class="product__img"><img width="150" heigh="100" src="http://placehold.it/150x100" alt=""></div>
-					<div class="product__stars">
+					<div class="product__img"><img width="150" heigh="100" src="img/spoiler/product-1.png" alt="Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)"></div>
+					<div class="stars stars_product">
+						<a href="#" class="star chosen"> </a>
 						<a href="#" class="star chosen"></a>
 						<a href="#" class="star chosen"></a>
 						<a href="#" class="star chosen"></a>
 						<a href="#" class="star chosen"></a>
-						<a href="#" class="star"></a>
 					</div>
 				</div>
 				<div class="product__info">
-					<div class="product__info-row1">
+					<div class="product__content">
 						<div class="product__description">
 							<h2><a href="#">Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)</a></h2>
 							<span class="product__code">Код товара: 1545478</span>
@@ -328,7 +341,7 @@
 									<i>грн</i>
 								</strong>
 							</div>
-							<div class="product__buy">
+							<div class="buy-buttons">
 								<a href="#" class="btn-basket">
 									<strong>В корзину</strong>
 								</a>
@@ -336,7 +349,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="product__info-row2">
+					<div class="product__meta">
 						<div class="product__links">
 							<a href="#" class="link-comments">12 отзывов</a>
 							<div class="link-compare">
@@ -347,43 +360,19 @@
 					</div>
 				</div>
 			</div>
-			<!-- END PRODUCT -->
+			<!-- END PRODUCT #3 -->
 
-
+		<!-- BEGIN page-nav -->
 		<div class="page-nav page-nav_product">страница 1 из 80</div>
+		<!-- END page-nav -->
+
 		</div>
-
+		<!-- END product-block -->
 	</div>
+	<!-- END main-col -->
 </div>
-<!-- END category__content -->
+<!-- END LAYOUT -->
 
-<!-- 		<ul>
-		<li>
-		<div class="item-foto">
-		<img src="img/item1.jpg">
-		<div class="add-chip">В КОРЗИНУ</div>
-		</div>
-
-		<div class="wrap-description">
-		<span>Sigma</span>
-		<p>24-70mm f/2.8 IF EX DG HSM (для Nikon)</p>
-		<div class="price">
-		<b>$299</b>
-		<i>2400грн</i>
-		</div>
-		</div>
-		</li>
-		<li></li>
-		</ul>
-
-		<ul>
-		<li></li>
-		<li></li>
-		</ul>
-		<ul>
-		<li></li>
-		<li></li>
-		</ul> -->
 </div>
 <!-- END wrap-conteiner-->
 

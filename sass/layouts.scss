@@ -17,12 +17,12 @@ $border: #d3eaf8;
 }*/
 
 
-.l{
+.layout{
 	width: 100%;
 	display: inline-block;
 
 	// Slidebar - Categories
-	.l-col1{
+	.sidebar{
 		float: left;
 		width: 220px;
 		background-color: $border;
@@ -30,7 +30,7 @@ $border: #d3eaf8;
 	}
 
 	//Containter - Categories
-	.l-col2{
+	.main-col{
 		float: left;
 		width: 775px;
 		margin-left:5px;

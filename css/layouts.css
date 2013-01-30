@@ -13,6 +13,6 @@
 		width: 70%;
 	}
 }*/
-.l { width: 100%; display: inline-block; }
-.l .l-col1 { float: left; width: 220px; background-color: #d3eaf8; border-radius: 0 10px 0 10px; }
-.l .l-col2 { float: left; width: 775px; margin-left: 5px; }
+.layout { width: 100%; display: inline-block; }
+.layout .sidebar { float: left; width: 220px; background-color: #d3eaf8; border-radius: 0 10px 0 10px; }
+.layout .main-col { float: left; width: 775px; margin-left: 5px; }

@@ -97,9 +97,9 @@ img { filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/sv
 		width: 70%;
 	}
 }*/
-.l { width: 100%; display: inline-block; }
-.l .l-col1 { float: left; width: 220px; background-color: #d3eaf8; border-radius: 0 10px 0 10px; }
-.l .l-col2 { float: left; width: 775px; margin-left: 5px; }
+.layout { width: 100%; display: inline-block; }
+.layout .sidebar { float: left; width: 220px; background-color: #d3eaf8; border-radius: 0 10px 0 10px; }
+.layout .main-col { float: left; width: 775px; margin-left: 5px; }
 
 img { filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); /* Firefox 10+ */ filter: gray; /* IE6-9 */ -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */ filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1);  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(grayScale=1)"; }
 
@@ -123,11 +123,11 @@ img { filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/sv
 .breadcrumbs a { text-decoration: none; color: #666; font-size: 10px; }
 .breadcrumbs a:hover { text-decoration: underline; }
 
-.category { background: url(../img/category-bg.png) no-repeat 5px 100%; }
+.container { background: url(../img/category-bg.png) no-repeat 5px 100%; }
 
-.category__header { background: url(../img/category-bg-2.png) no-repeat 100% 100%; padding: 5px; border-top: 5px solid #d3eaf8; border-left: 5px solid #d3eaf8; border-right: 5px solid #d3eaf8; border-radius: 10px 10px 0 0; }
+.container__holder { background: url(../img/category-bg-2.png) no-repeat 100% 100%; padding: 5px; border-top: 5px solid #d3eaf8; border-left: 5px solid #d3eaf8; border-right: 5px solid #d3eaf8; border-radius: 10px 10px 0 0; }
 
-.category__holder { margin: 0 0 0 20px; }
+.container__header { margin: 0 0 0 20px; }
 
 .title-1 { font-size: 34px; color: #666666; }
 
@@ -155,11 +155,12 @@ form { display: inline-block; }
 .product { border-top: 1px solid #a7d6f1; min-height: 170px; overflow: hidden; display: inline-block; }
 .product .product__media { float: left; width: 170px; margin: 15px 5px 15px 0; text-align: center; overflow: hidden; }
 .product .product__media .product__img { margin: 0 5px 5px; }
-.product .product__media .product__stars { display: inline-block; }
-.product .product__media .product__stars .star { display: inline-block; background: url('../img/icons-s5aeb17607c.png') 0 -636px no-repeat; width: 12px; height: 12px; }
-.product .product__media .product__stars .chosen { background: url('../img/icons-s5aeb17607c.png') 0 -697px no-repeat; width: 12px; height: 12px; }
+.product .stars_product { margin: 0 20px; }
+.product .stars { display: block; }
+.product .stars .star { display: inline-block; background: url('../img/icons-s5aeb17607c.png') 0 -636px no-repeat; width: 12px; height: 12px; }
+.product .stars .chosen { background: url('../img/icons-s5aeb17607c.png') 0 -697px no-repeat; width: 12px; height: 12px; }
 .product .product__info { float: left; width: 600px; margin: 20px 0; }
-.product .product__info-row1 { border-bottom: 1px dotted #d9d9d9; margin-bottom: 10px; overflow: hidden; }
+.product .product__content { border-bottom: 1px dotted #d9d9d9; margin-bottom: 10px; overflow: hidden; }
 .product .product__description { margin: 0 0 10px 0; float: left; width: 420px; }
 .product .product__description h2 { color: #666; font-size: 18px; }
 .product .product__description h2 a { text-decoration: none; color: #666; }
@@ -170,14 +171,14 @@ form { display: inline-block; }
 .product .product__status { color: #006699; border-bottom: 1px dotted #d9d9d9; }
 .product .product__price strong { color: #ff6600; font-size: 26px; }
 .product .product__price strong i { font-size: 18px; font-style: normal; }
-.product .product__info-row2 { overflow: hidden; }
-.product .product__buy { position: relative; width: 160px; height: 29px; overflow: hidden; }
-.product .product__buy .btn-basket { font-size: 11px !important; font-family: Tahoma, "Geneva CY", sans-serif; color: #ffffff; position: absolute; top: 0; left: 0; background: url('../img/icons-s5aeb17607c.png') 0 -597px no-repeat; width: 78px; height: 29px; display: inline-block; text-transform: uppercase; text-decoration: none; }
-.product .product__buy .btn-basket:hover { text-decoration: none; }
-.product .product__buy .btn-basket strong { position: absolute; left: 6px; top: 6px; }
-.product .product__buy .btn-credit { font-size: 12px; line-height: 1; position: absolute; right: 0; text-decoration: none; top: 0; color: #ff6600; font-family: Tahoma, "Geneva CY", sans-serif; background: url('../img/icons-s5aeb17607c.png') 0 -658px no-repeat; width: 86px; height: 29px; }
-.product .product__buy .btn-credit:hover { text-decoration: none; }
-.product .product__buy .btn-credit span { left: 20px; position: absolute; text-align: right; text-transform: uppercase; top: 2px; }
+.product .product__meta { overflow: hidden; }
+.product .buy-buttons { position: relative; width: 160px; height: 29px; overflow: hidden; }
+.product .buy-buttons .btn-basket { font-size: 11px !important; font-family: Tahoma, "Geneva CY", sans-serif; color: #ffffff; position: absolute; top: 0; left: 0; background: url('../img/icons-s5aeb17607c.png') 0 -597px no-repeat; width: 78px; height: 29px; display: inline-block; text-transform: uppercase; text-decoration: none; }
+.product .buy-buttons .btn-basket:hover { text-decoration: none; }
+.product .buy-buttons .btn-basket strong { position: absolute; left: 6px; top: 6px; }
+.product .buy-buttons .btn-credit { font-size: 12px; line-height: 1; position: absolute; right: 0; text-decoration: none; top: 0; color: #ff6600; font-family: Tahoma, "Geneva CY", sans-serif; background: url('../img/icons-s5aeb17607c.png') 0 -658px no-repeat; width: 86px; height: 29px; }
+.product .buy-buttons .btn-credit:hover { text-decoration: none; }
+.product .buy-buttons .btn-credit span { left: 20px; position: absolute; text-align: right; text-transform: uppercase; top: 2px; }
 .product .product__links .link-comments { float: left; color: #ff6600; }
 .product .product__links .link-compare { float: right; line-height: 1; color: #ff6600; }
 .product .product__links .link-compare label { text-decoration: underline; cursor: pointer; display: inline-block; vertical-align: middle; }

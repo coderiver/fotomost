@@ -1,22 +1,22 @@
 @import "base";
 // =======Sprites
 // .whatever{
-// 	@include sized-sprite($icons, badge_hit);
-// 	@include retina{
-// 		@include sized-sprite($icons, badge_new);
-// 	}
+// @include sized-sprite($icons, badge_hit);
+// @include retina{
+// @include sized-sprite($icons, badge_new);
+// }
 // }
 // =======animation example
 // @include keyframes(rotate) {
-//    from {
-//       @include rotate(0);
-//    }
-//    to {
-//       @include rotate(360);
-//    }
+// from {
+// @include rotate(0);
+// }
+// to {
+// @include rotate(360);
+// }
 // }
 // body:hover{
-// 	@include animation(rotate 200s linear infinite);
+// @include animation(rotate 200s linear infinite);
 // }
 // ========gradient example
 // body{
@@ -28,22 +28,22 @@
 *{margin:0;padding:0;-webkit-text-size-adjust: none; }
 img{@extend %gray;}
 body{
-	font: {
-	    family: Arial,sans-serif;
-	    weight: normal;
-	    size: 12px;
-	  	}
-	line-height:1.4;
+font: {
+family: Arial,sans-serif;
+weight: normal;
+size: 12px;
+}
+line-height:1.4;
 }
 // resets
 a img,fieldset{
-	border:none;
-	}
+border:none;
+}
 a{
-	color:#00919e;
-	&:hover{
-		text-decoration:none;
-	}
+color:#00919e;
+&:hover{
+text-decoration:none;
+}
 }
 // common styles, these could be attached to any block with "@extend %wyswyg;"
 %wyswyg{
@@ -61,9 +61,9 @@ a{
       margin: 1em 2em;
    }
    table{
-   	border-spacing: 0;
-   	border-collapse: collapse;
-   	width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
       td{
          border: 1px solid #ccc;
          padding: 5px;
@@ -104,8 +104,8 @@ a{
          margin-left: 5px;
          a{
             font: 11px Arial,sans-serif;
-            text-decoration: none; 
-            color: #000;          
+            text-decoration: none;
+            color: #000;
          }
          span{
             margin-left: 5px;
@@ -136,10 +136,10 @@ ul.login{
    background-color: #d3eaf8;
    float: right;
    display: inline-block;
-   font: 10px Arial,sans-serif; 
+   font: 10px Arial,sans-serif;
    line-height: 10px;
-   color: #069;  
-   border-radius: 0px 0px 10px 0;   
+   color: #069;
+   border-radius: 0px 0px 10px 0;
    div {
       font-weight: bold;
       float: right;
@@ -147,7 +147,7 @@ ul.login{
    }
    div.mr14{
       margin-right: 14px;
-   }   
+   }
    span{
       width: 30px;
       font-weight: normal;
@@ -156,22 +156,22 @@ ul.login{
 .wrap-logo{
    width: 1000px;
    height: 36px;
-   float: left;   
+   float: left;
    position: relative;
       .logo{
          width: 198px;
          height: 49px;
-         background: url('../img/icons/logo.png') 0 0 no-repeat; 
+         background: url('../img/icons/logo.png') 0 0 no-repeat;
          position: relative;
          top: -13px;
-         left: 0px; 
-         float: left;   
+         left: 0px;
+         float: left;
          a{
             display: block;
             width: 198px;
             height: 49px;
             font: 0/0 a;
-            text-shadow: none;          
+            text-shadow: none;
          }
       }
       .wrap-logo__note{
@@ -197,7 +197,7 @@ ul.login{
 }
 form.search{
    margin: 4px 0 0 4px;
-   position: relative;   
+   position: relative;
    float: left;
    input{
       width: 336px;
@@ -217,12 +217,12 @@ form.search{
       color: #036;
 }
    input::-webkit-input-placeholder {
-         color: #036; 
+         color: #036;
    }
    button{
       width: 20px;
       height: 20px;
-      background: url('../img/icons/search-button.png') 0 0 no-repeat; 
+      background: url('../img/icons/search-button.png') 0 0 no-repeat;
       position: absolute;
       left: 328px;
       top: 1px;
@@ -232,7 +232,7 @@ form.search{
          display: none;
          line-height: 1;
          font-weight: bold;
-         color: #fff;         
+         color: #fff;
       }
    }
 
@@ -252,11 +252,10 @@ form.search{
 }
 .wrap-slider{
    width: 985px;
-   height: 258px;
-   padding: 5px;
+   padding: 5px 5px 0;
    border-top: 5px solid #d3eaf8;
-   border-left: 5px solid #d3eaf8;  
-   border-bottom: 5px solid #d3eaf8;   
+   border-left: 5px solid #d3eaf8;
+   border-bottom: 5px solid #d3eaf8;
    border-radius: 10px 0 0 10px;
    float: left;
 }
@@ -269,15 +268,15 @@ form.search{
       margin-bottom: 5px;
       border-radius: 10px;
       @include background-image(linear-gradient(top, #c1ddf4 0%,
-      #7eb9e8 50%, #4599dd 100%));    
-       list-style: none;       
+      #7eb9e8 50%, #4599dd 100%));
+       list-style: none;
       li{
          padding: 4px 10px;
-         margin: 5px 0;       
+         margin: 5px 0;
          float: left;
-         background: url('../img/icons/primary-menu_border.png') 0 0 no-repeat; 
+         background: url('../img/icons/primary-menu_border.png') 0 0 no-repeat;
          &:first-child{
-          background: none; 
+          background: none;
          }
          a{
             font: 18px Arial,sans-serif;
@@ -291,15 +290,15 @@ form.search{
 .pre-chip{
    width: 35px;
    height: 40px;
-   background: url('../img/icons/chip-border2.png') 0 0 no-repeat;    
+   background: url('../img/icons/chip-border2.png') 0 0 no-repeat;
    position: absolute;
    right: 70px;
-   top: 0;        
+   top: 0;
 }
 .chip{
    width: 80px;
    height: 40px;
-   background: url('../img/icons/chip_bg.png') 0 0 repeat-x;  
+   background: url('../img/icons/chip_bg.png') 0 0 repeat-x;
    position: absolute;
    top: 0px;
    right: -5px;
@@ -309,7 +308,7 @@ form.search{
    .chip-note{
       position: absolute;
       top: 10px;
-      right: 10px;    
+      right: 10px;
    }
 }
 
@@ -318,21 +317,21 @@ form.search{
 .footer{
    width: 1000px;
    @include background-image(linear-gradient(top, #cee8f7 0%,
-   #7ac1ea 50%, #6abae7 100%));   
+   #7ac1ea 50%, #6abae7 100%));
    float: left;
    border-radius: 5px 5px 0 0;
    font: 10px Arial, sans-serif;
    line-height: 15px;
    margin-top: 15px;
    ul{
-      float: left;     
+      float: left;
       list-style: none;
       margin: 15px 10px;
       li{
          padding: 0px 5px;
          &:first-child{
-          font-weight: bold; 
-         }         
+          font-weight: bold;
+         }
          a{
             text-decoration: none;
             color: #036;
@@ -357,11 +356,11 @@ ul.bottom-menu{
    li{
       float: left;
       &:first-child{
-       font-weight: normal; 
-      }   
+       font-weight: normal;
+      }
       span{
          margin-left: 5px;
-      }           
+      }
    }
 }
 .address{

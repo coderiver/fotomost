@@ -1,14 +1,28 @@
 @import "base";
 
+// misc
+.wrap-conteiner{
+	width: 1000px;
+	background-color: white;
+	float: left;
+}
+
 .slider{
    width: 990px;
    height: 215px;
    float: left;  
+   margin-top: 5px;
 }
+
+ul.border-b__none{
+	border-bottom: none;
+}
+
+// wrap-scrollable
 .wrap-scrollable{
    width: 994px;
    height: 80px;  
-   margin: 5px 0 15px; 
+   margin:5px 0 15px; 
    padding: 4px 0; 
    float: left; 
    border-top: 5px solid #a7d6f1;
@@ -69,31 +83,23 @@
 		overflow: hidden;		
 	}
 }
-// wrap-conteiner
 
-.wrap-conteiner{
-	width: 1000px;
-	background-color: white;
+// item-product
+ul.item-product{
+	list-style: none;
 	float: left;
-	ul{
-		list-style: none;
+	border-bottom: 1px solid #a7d6f1;		
+	li{
+		width: 332px;	
+		height: 163px;
+		padding-bottom: 25px;
+		border-right: 1px solid #a7d6f1;
 		float: left;
-		border-bottom: 1px solid #a7d6f1;		
-		li{
-			width: 332px;	
-			height: 163px;
-			padding-bottom: 25px;
-			border-right: 1px solid #a7d6f1;
-			float: left;
-			position: relative;
+		position: relative;
 
-        	&:last-child{
- 				border-right: none;       		
-        	}				
-		}
-	}
-	ul.border-b__none{
-		border-bottom: none;
+    	&:last-child{
+				border-right: none;       		
+    	}				
 	}
 }
 .item-foto{
@@ -101,6 +107,8 @@
 	margin: 10px 0 0 10px;
 	float: left;
 }
+
+// wrap-description
 .wrap-description{
 	width: 115px;
 	float: right;
@@ -131,6 +139,8 @@
 	}
 
 }
+
+// add-chip
 .add-chip{
     @include sized-sprite($icons, add-chip);	
 	width: 70px;

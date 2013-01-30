@@ -27,18 +27,18 @@
  		padding: 0 4px;  		
    }    
 	 .scrollable__fix{
+        @include sized-sprite($icons, scroll_icons);	 	
 		width: 133px;
-		height: 40px;
-		background: url("../img/icons/scroll_icons.png") 0 0 no-repeat;
+		height: 40px;		
 		font: 16px Arial, sans-serif;
 		color: #f60;
 		padding: 20px 4px;
 		float: left;
 	}  
 	.toggle{
+        @include sized-sprite($icons, arrow);		
 		width: 11px;
-		height: 88px;
-		background: url("../img/icons/arrow2.png") 0 0 no-repeat; 
+		height: 88px; 
 		position: absolute;
 		right: 10px;
 		top: 0px;	
@@ -132,10 +132,10 @@
 
 }
 .add-chip{
+    @include sized-sprite($icons, add-chip);	
 	width: 70px;
 	height: 15px;
 	padding: 7px 4px;
-	background: url('../img/icons/add-chip.png') 0 0 no-repeat;	
 	position: absolute;
 	bottom: 15px;	
 	left: 20px;

@@ -23,6 +23,14 @@
 // @include background-image(linear-gradient(#232323, #5c5c5c));
 // }
 
+/* HOW TO USE SPRITES, see _base.scss*/
+
+.whatever{
+   @include sized-sprite($icons, logo);
+   @include retina{
+      @include sized-sprite($icons, logo);
+   }
+}
 
 
 *{margin:0;padding:0;-webkit-text-size-adjust: none; }
@@ -85,15 +93,15 @@ a{
       width: 7px;
       height: 37px;
       float: left;
-      background: url('../img/icons/top-menu_border.png') 0 0 no-repeat;
+      @include sized-sprite($icons, top-menu_border);     
    }
 }
 .top-nav{
    width: 800px;
-   height: 25px;
+   height:25px;
    margin: 7px 0px 0 85px;
    float: left;
-   border-bottom: 5px solid #d3eaf8;
+   border-bottom:5px solid #d3eaf8;
 
    ul.top-menu{
       list-style: none;
@@ -158,9 +166,9 @@ ul.login{
    float: left;   
    position: relative;
       .logo{
+         @include sized-sprite($icons, logo);         
          width: 198px;
-         height: 49px;
-         background: url('../img/icons/logo.png') 0 0 no-repeat; 
+         height: 49px;              
          position: relative;
          top: -13px;
          left: 0px; 
@@ -221,7 +229,7 @@ form.search{
    button{
       width: 20px;
       height: 20px;
-      background: url('../img/icons/search-button.png') 0 0 no-repeat; 
+      @include sized-sprite($icons, search-button);      
       position: absolute;
       left: 328px;
       top: 1px;
@@ -273,7 +281,9 @@ form.search{
          padding: 4px 10px;
          margin: 5px 0;       
          float: left;
-         background: url('../img/icons/primary-menu_border.png') 0 0 no-repeat; 
+         @include sized-sprite($icons, primary-menu_border);  
+         width: auto;
+         height: auto;
          &:first-child{
           background: none; 
          }
@@ -286,18 +296,11 @@ form.search{
       }
    }
 }
-.pre-chip{
-   width: 35px;
-   height: 40px;
-   background: url('../img/icons/chip-border2.png') 0 0 no-repeat;    
-   position: absolute;
-   right: 70px;
-   top: 0;        
-}
+
 .chip{
-   width: 80px;
-   height: 40px;
-   background: url('../img/icons/chip_bg.png') 0 0 repeat-x;  
+   @include sized-sprite($icons, chip);   
+   width: 106px;
+   height: 40px;     
    position: absolute;
    top: 0px;
    right: -5px;
@@ -307,7 +310,7 @@ form.search{
    .chip-note{
       position: absolute;
       top: 10px;
-      right: 10px;    
+      right: 5px;    
    }
 }
 

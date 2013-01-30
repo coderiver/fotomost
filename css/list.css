@@ -1,4 +1,4 @@
-/* -------------------------------------------- Category (HEADER) -------------------------------------------- */
+/* -------------------------------------------- CONTAINER -------------------------------------------- */
 .breadcrumbs { padding: 0 5px; position: absolute; top: -12px; left: 31px; background-color: white; }
 .breadcrumbs ul { list-style-type: none; }
 .breadcrumbs li { position: relative; display: inline-block; margin-left: 10px; }
@@ -14,7 +14,7 @@
 
 .title-1 { font-size: 34px; color: #666666; }
 
-/* -------------------------------------------- // END Category (HEADER) -------------------------------------------- */
+/* -------------------------------------------- // END CONTAINER -------------------------------------------- */
 /* -------------------------------------------- SIDEBAR -------------------------------------------- */
 .filters { line-height: 1.8; margin: 20px 20px 20px 30px; }
 .filters h4 { color: black; font-size: 13px; margin-left: 5px; font-weight: bold; }
@@ -26,7 +26,7 @@
 form { display: inline-block; }
 
 /* -------------------------------------------- // END SIDEBAR -------------------------------------------- */
-/* -------------------------------------------- CONTAINER -------------------------------------------- */
+/* -------------------------------------------- MAIN-COL -------------------------------------------- */
 .sort-view { padding: 10px; height: 16px; background-color: #d3eaf8; border-radius: 10px 0 10px 0; }
 .sort-view .sort { display: inline-block; }
 .sort-view .view { float: right; }
@@ -55,6 +55,11 @@ form { display: inline-block; }
 .product .product__price strong { color: #ff6600; font-size: 26px; }
 .product .product__price strong i { font-size: 18px; font-style: normal; }
 .product .product__meta { overflow: hidden; }
+.product .product__links .link-comments { float: left; color: #ff6600; }
+.product .product__links .link-compare { float: right; line-height: 1; color: #ff6600; }
+.product .product__links .link-compare label { text-decoration: underline; cursor: pointer; display: inline-block; vertical-align: middle; }
+.product .product__links .link-compare label:hover { text-decoration: none; }
+.product .product__links .link-compare input { display: inline-block; vertical-align: middle; }
 .product .buy-buttons { position: relative; width: 160px; height: 29px; overflow: hidden; }
 .product .buy-buttons .btn-basket { font-size: 11px !important; font-family: Tahoma, "Geneva CY", sans-serif; color: #ffffff; position: absolute; top: 0; left: 0; background: url('../img/icons-s5aeb17607c.png') 0 -597px no-repeat; width: 78px; height: 29px; display: inline-block; text-transform: uppercase; text-decoration: none; }
 .product .buy-buttons .btn-basket:hover { text-decoration: none; }
@@ -62,10 +67,5 @@ form { display: inline-block; }
 .product .buy-buttons .btn-credit { font-size: 12px; line-height: 1; position: absolute; right: 0; text-decoration: none; top: 0; color: #ff6600; font-family: Tahoma, "Geneva CY", sans-serif; background: url('../img/icons-s5aeb17607c.png') 0 -658px no-repeat; width: 86px; height: 29px; }
 .product .buy-buttons .btn-credit:hover { text-decoration: none; }
 .product .buy-buttons .btn-credit span { left: 20px; position: absolute; text-align: right; text-transform: uppercase; top: 2px; }
-.product .product__links .link-comments { float: left; color: #ff6600; }
-.product .product__links .link-compare { float: right; line-height: 1; color: #ff6600; }
-.product .product__links .link-compare label { text-decoration: underline; cursor: pointer; display: inline-block; vertical-align: middle; }
-.product .product__links .link-compare label:hover { text-decoration: none; }
-.product .product__links .link-compare input { display: inline-block; vertical-align: middle; }
 
-/* -------------------------------------------- // END CONTAINER -------------------------------------------- */
+/* -------------------------------------------- // END MAIN-COL -------------------------------------------- */

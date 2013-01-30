@@ -1,16 +1,16 @@
 /* -------------------------------------------- CONTAINER -------------------------------------------- */
-.breadcrumbs { padding: 0 5px; position: absolute; top: -12px; left: 20px; background-color: white; }
+.breadcrumbs { padding: 0 5px; position: absolute; top: -12px; left: 31px; background-color: white; }
 .breadcrumbs ul { list-style-type: none; }
 .breadcrumbs li { position: relative; display: inline-block; margin-left: 10px; }
 .breadcrumbs li:before { background: url('../img/icons-s5aeb17607c.png') 0 -719px no-repeat; width: 4px; height: 7px; color: #d1d1d1; content: ""; left: -8px; position: absolute; top: 35%; }
 .breadcrumbs a { text-decoration: none; color: #666; font-size: 10px; }
 .breadcrumbs a:hover { text-decoration: underline; }
 
-.container_list { background: url(../img/category-bg.png) no-repeat 5px 100%; }
+.container { background: url(../img/category-bg.png) no-repeat 5px 100%; }
 
-.container__holder { padding: 5px 15px; border-top: 5px solid #d3eaf8; border-left: 5px solid #d3eaf8; border-right: 5px solid #d3eaf8; border-radius: 10px 10px 0 0; }
+.container__holder { background: url(../img/category-bg-2.png) no-repeat 100% 100%; padding: 5px; border-top: 5px solid #d3eaf8; border-left: 5px solid #d3eaf8; border-right: 5px solid #d3eaf8; border-radius: 10px 10px 0 0; }
 
-.container__holder_list { background: url(../img/category-bg-2.png) no-repeat 100% 100%; }
+.container__header { margin: 0 0 0 20px; }
 
 .title-1 { font-size: 34px; color: #666666; }
 

@@ -1,44 +1,20 @@
 @import "base";
 
-.slider{
-   width: 990px;
-   height: 215px;
-   float: left;  
-}
-.scrollable img{
-   width: 999px;
-   height: 98px;
-   margin-top: 15px;  
-   float: left; 
+.out{
+   width: 1000px;
+   margin: 0 auto;
 }
 
-// wrap-conteiner
-
-.wrap-conteiner{
-	width: 1000px;
+// CONTAINER (CONTENT)
+.content{
 	background-color: white;
-	float: left;
-	margin: 5px 0 0;
-	position: relative;
-	// ul{
-	// 	li{
-	// 		width: 330px;			
-	// 		display: inline-block;
-	// 		float: left;
-	// 	}
-	// }
+	margin: 5px 0 10px;
+    position: relative;
 }
-.item-foto{
-	width: 200px;
-	float: left;
-	img{
 
-	}
+// MAIN WRAPPER WITH BORDER
+.wrapper{
+	border: 5px solid #d3eaf8;
+    border-radius: 10px 10px 10px 10px;
 }
-.wrap-description{
-	width: 130px;
-	float: left;
-}
-.add-chip{
 
-}

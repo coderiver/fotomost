@@ -15,7 +15,7 @@ $color: #ff6600;
 .breadcrumbs{
 	padding: 0 5px;
 	position: absolute;
-	top:-12px;
+	top:-11px;
 	left:20px;
 	background-color: white;
 	ul{
@@ -45,25 +45,38 @@ $color: #ff6600;
 }
 
 // Container
-.container_list{
-	background: url(../img/category-bg.png) no-repeat 5px 100%;
-}
-
-	.container__holder{
-		padding: 5px 15px;
-		border-top: 5px solid $border;
-		border-left: 5px solid $border;
-		border-right: 5px solid $border;
-		border-radius: 10px 10px 0 0;
-	}
-
-		.container__holder_list{
-			background: url(../img/category-bg-2.png) no-repeat 100% 100%;
-		}
-
 		.title-1{
 			font-size: 34px;
 			color: $title-1;
+			position: relative;
+			padding-left: 29px;
+			font-weight: normal;
+		}
+
+		.product__header{
+			.wrapper{
+				border-radius: 10px 10px 0 0;
+				border: 5px solid #d3eaf8;
+				border-bottom: none;
+			&:before{
+				@include sized-sprite($icons, cor-bl);
+				position: absolute;
+				bottom: 0;
+				left: 5px;
+				content: "";
+			}
+			&:after{
+				@include sized-sprite($icons, cor-br);
+				position: absolute;
+				bottom: 0;
+				right: 5px;
+				content: "";
+			}
+			}
+		}
+
+		.product__main{
+			//overflow: hidden;
 		}
 /* -------------------------------------------- // END CONTAINER -------------------------------------------- */
 
@@ -72,13 +85,16 @@ $color: #ff6600;
 /* -------------------------------------------- SIDEBAR -------------------------------------------- */
 
 //filters
-.filters{
-	line-height: 1.8;
-	margin: 20px 20px 20px 30px;
+.nav-sidebar{
+	background-color: $border;
+	border-radius: 0 10px 0 10px;
+	line-height: 2;
+	padding: 20px;
+}
+.nav-filters{
 	h4{
 		color: black;
 		font-size: 13px;
-		margin-left: 5px;
 		font-weight: bold;
 	}
 	ul{

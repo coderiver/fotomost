@@ -13,6 +13,8 @@
 		width: 70%;
 	}
 }*/
-.layout { width: 100%; display: inline-block; }
-.layout .sidebar { float: left; width: 220px; background-color: #d3eaf8; border-radius: 0 10px 0 10px; }
-.layout .main-col { float: left; width: 775px; margin-left: 5px; }
+.l { width: 100%; display: inline-block; }
+
+.sidebar { float: left; width: 220px; }
+
+.main-col { float: left; width: 775px; margin-left: 5px; }

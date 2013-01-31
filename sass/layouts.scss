@@ -17,16 +17,15 @@ $border: #d3eaf8;
 }*/
 
 
-.layout{
+.l{
 	width: 100%;
 	display: inline-block;
+}
 
 	// Slidebar - Categories
 	.sidebar{
 		float: left;
 		width: 220px;
-		background-color: $border;
-		border-radius: 0 10px 0 10px;
 	}
 
 	//Containter - Categories
@@ -35,4 +34,3 @@ $border: #d3eaf8;
 		width: 775px;
 		margin-left:5px;
 	}
-}

@@ -3,19 +3,20 @@
 <!--[if gt IE 8]><!--><html lang="ru-RU"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>package</title>
+<title>search</title>
 <!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <link rel="stylesheet" media="screen" href="css/screen.css" >
 </head>
 <body>
+
+
 <!-- BEGIN out-->
 <div class="out">
-<div class="wrap">
 
 <!-- BEGIN header-conteiner-->
-<div class="header-conteiner">
+<div class="header-conteiner"> 
 <div class="top-nav">
 <ul class="login">
 <li><a href="#">Вход</a><span>|</span></li>
@@ -78,19 +79,11 @@
 </div>	
 </div>
 </div>
+</div>
 
-<!-- <div class="slider"><img src="img/slider1.jpg"></div> -->
-</div>	
-<!-- <div class="scrollable"> <img src="img/slider2.jpg"></div> -->
-
-<!-- END wrap-slider-->
-
-<!-- BEGIN wrap-conteiner-->
-<div class="wrap-conteiner">
-
-<!-- BEGIN category -->
-<div class="container"> 
-		<nav class="breadcrumbs">
+<!-- BEGIN CONTENT-->
+<div class="content">
+	<nav class="breadcrumbs">
 		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">Cameras &amp; Lenses</a></li>
@@ -98,24 +91,35 @@
 			<li><a href="#">Digital Cameras</a></li>
 		</ul>
 	</nav>
-	<div class="container__holder">
-		<div class="container__header">
-			<h2 class="title-1">Digital Cameras</h2>
-		</div>
+
+<!-- BEGIN CONTENT HEADER -->
+<div class="product__header">
+	<div class="wrapper">
+		<h2 class="title-1">Результаты поиска: <span class="search__result">Sony Nex</span></h2>
 	</div>
 </div>
-<!-- END category -->
+<!-- END CONTENT HEADER -->
 
-<!-- BEGIN LAYOUT -->
-<div class="layout">
+<!-- BEGIN MAIN CONTENT -->
+<div class="product__main">
 
 	<!-- BEGIN sidebar -->
 	<aside class="sidebar">
-		<nav class="filters">
+		<nav class="nav-sidebar nav-filters">
 			<ul>
 				<li>
-					<h4>Производитель</h4>
+					<h4>Группа товаров</h4>
  					<ul>
+						<li><a href="#">Фотоаппараты(52)</a></li>
+						<li><a href="#">Объективы(16)</a></li>
+						<li><a href="#">Видео(1)</a></li>
+						<li><a href="#">Ноутбуки(42)</a></li>
+						<li><a href="#">Аксессуары(2)</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4>Производитель</h4>
+					<ul>
 						<li><a href="#">Canon(52)</a></li>
 						<li><a href="#">Fujifilm(16)</a></li>
 						<li><a href="#">Kodak(1)</a></li>
@@ -144,20 +148,6 @@
 						<li><a href="#">13-16 мегапикселей(65)</a></li>
 						<li><a href="#">17-21 мегапикселей(7)</a></li>
 						<li><a href="#">более 21 мегапикселей (8)</a></li>
-					</ul>
-				</li>
-				<li>
-					<h4>Размер сенсора</h4>
-					<ul>
-						<li><a href="#">менее 1/2.3”(2)</a></li>
-						<li><a href="#">1/2.3” - 1/1.6”(112)</a></li>
-						<li><a href="#">APS-C(3)</a></li>
-					</ul>
-				</li>
-				<li>
-					<h4>Оптический зум</h4>
-					<ul>
-						<li><a href="#">менее 4x(7)</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -370,11 +360,14 @@
 		<!-- END product-block -->
 	</div>
 	<!-- END main-col -->
-</div>
-<!-- END LAYOUT -->
+
 
 </div>
-<!-- END wrap-conteiner-->
+<!-- END MAIN CONTENT -->
+
+</div>
+<!-- END CONTENT-->
+
 
 <!-- BEGIN footer-->
 <div class="footer">
@@ -445,7 +438,6 @@ Als wir das neue iPhone entworfen haben, sind wir bei einem ausserordentlich dü
 </div>
 <!-- END footer-->	
 
-</div>	
 </div>
 <!-- END out-->
 </body>

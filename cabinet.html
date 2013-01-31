@@ -3,28 +3,32 @@
 <!--[if gt IE 8]><!--><html lang="ru-RU"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Template</title>
+<title>cabinet</title>
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 <link rel="stylesheet" media="screen" href="css/screen.css" >
 </head>
 <body>
+
+
 <!-- BEGIN out-->
 <div class="out">
-<div class="wrap">
 
 <!-- BEGIN header-conteiner-->
 <div class="header-conteiner">
 <div class="top-nav">
 <ul class="login">
-<li><a href="#">Вход</a><span>|</span></li>	
+<li><a href="#">Вход</a><span>|</span></li>
 <li><a href="#">Регистрация</a></li>
-</ul>	
+</ul>
 <ul class="top-menu">
 <li><a href="#">О нас</a><span>|</span></li>
 <li><a href="#">Доставка</a><span>|</span></li>
 <li><a href="#">Оплата</a><span>|</span></li>
 <li><a href="#">Гарантия</a><span>|</span></li>
 <li><a href="#">Контакты</a><span>|</span></li>
-<li><a href="#">Схема проезда</a></li>	
+<li><a href="#">Схема проезда</a></li>
 </ul>
 </div>
 <div class="menu-border"></div>
@@ -32,7 +36,7 @@
 <div><span>Пн-Пт: </span>09:00-19:00</div>
 <div><span>Сб: </span>10:00-16:00</div>
 <div class="mr14"><span>Вс: </span>Выходной</div>
-</div>	
+</div>
 </div>
 <!-- END header-conteiner-->
 
@@ -75,44 +79,69 @@
 </div>	
 </div>
 </div>
-
-<div class="slider"><img src="img/slider1.jpg"></div>
-</div>	
-<div class="scrollable"> <img src="img/slider2.jpg"></div>
-
-<!-- END wrap-slider-->
-
-<!-- BEGIN wrap-conteiner-->
-<div class="wrap-conteiner">
-<ul>
-<li>
-<div class="item-foto">
-<img src="img/item1.jpg">
-<div class="add-chip">В КОРЗИНУ</div>
 </div>
 
-<div class="wrap-description">
-<span>Sigma</span>
-<p>24-70mm f/2.8 IF EX DG HSM (для Nikon)</p>
-<div class="price">
-<b>$299</b>
-<i>2400грн</i>
-</div>
-</div>
-</li>
-<li></li>
-</ul>
+<!-- BEGIN CONTENT-->
+<div class="content">
+	<nav class="breadcrumbs">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Textpage</a></li>
+		</ul>
+	</nav>
 
-<ul>
-<li></li>
-<li></li>
-</ul>
-<ul>
-<li></li>
-<li></li>
-</ul>	
+<!-- BEGIN CONTENT HEADER -->
+<div class="profile__header">
+	<div class="wrapper">
+		<h2 class="title-1">Мой кабинет</h2>
+	</div>
 </div>
-<!-- END wrap-conteiner-->
+<!-- END CONTENT HEADER -->
+
+<!-- BEGIN MAIN CONTENT -->
+<div class="profile__main">
+
+	<!-- BEGIN sidebar -->
+	<aside class="sidebar">
+		<nav class="nav-sidebar nav-profile">
+			<h4>Панель управления аккаунтом</h4>
+ 			<a href="#">Данные учётной записи</a>
+			<a href="#">Адресная книга</a>
+			<a href="#">Мои заказы</a>
+			<a href="#">Мои отзывы о товарах</a>
+		</nav>
+		<div class="profile__data">
+			<h4>Данные учетной записи</h4>
+			<h5>Обратная связь</h5>
+			<p><a href="mailto:#">email@fotomost.com.ua</a></p>
+			<h5>Основной адрес доставки</h5>
+			<p>г. Киев, ул. Бориспольская 9 ,корпус 90, офис 109</p>
+			<a href="#" class="profile__edit">Редактировать</a>
+		</div>
+	</aside>
+	<!-- END sidebar -->
+
+	<!-- BEGIN main-col -->
+	<div class="main-col_profile">
+		<div class="wrapper">
+			<article>
+				<h2 class="title-2">Моя учётная запись</h2>
+				<p>24.3 MP 35 mm Full Frame Sensor: High-quality images are realized through the 24.3 MP effective 35mm full-frame sensor, a normal sensor range of ISO 100 25600, and a balance of gradation and low noise. The BIONZ image processor enables up to 5 fps high-speed continuous shooting and 14-bit RAW image data recording.</p>
+
+				<p>Full HD 24p video: Full HD 24p video with manual control and audio input. For creative flexibility, users can enter Program Auto (P), Aperture Priority (A), Shutter Speed Priority (S) or Manual Exposure (M) mode for manual shooting and exposure control. Enjoy clear sound recording and playback via built-in stereo microphone and and mono speaker.<br>
+				Bright F2.0 Carl Zeiss Sonnar T* lens: Newly developed large-diameter F2.0 Carl Zeiss Sonnar T* lens delivers refined background defocusing bokeh, and macro capabilities. A premium multi-layered T* coating also dramatically reduces ghost and flare caused by light reflection.</p>
+			</article>
+		</div>
+	</div>
+	<!-- END main-col -->
+
+
+</div>
+<!-- END MAIN CONTENT -->
+
+</div>
+<!-- END CONTENT-->
+
 
 <!-- BEGIN footer-->
 <div class="footer">
@@ -183,7 +212,6 @@ Als wir das neue iPhone entworfen haben, sind wir bei einem ausserordentlich dü
 </div>
 <!-- END footer-->	
 
-</div>	
 </div>
 <!-- END out-->
 </body>

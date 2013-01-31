@@ -1,9 +1,5 @@
-.slider { width: 990px; height: 215px; float: left; }
+.out { width: 1000px; margin: 0 auto; }
 
-.scrollable img { width: 999px; height: 98px; margin-top: 15px; float: left; }
+.content { background-color: white; margin: 5px 0 10px; position: relative; }
 
-.wrap-conteiner { width: 1000px; background-color: white; float: left; margin: 5px 0 0; position: relative; }
-
-.item-foto { width: 200px; float: left; }
-
-.wrap-description { width: 130px; float: left; }
+.wrapper { border: 5px solid #d3eaf8; border-radius: 10px 10px 10px 10px; }

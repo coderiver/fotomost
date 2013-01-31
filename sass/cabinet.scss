@@ -1,13 +1,13 @@
 ﻿@import "base";
 
 
-.profile__main{
+.content__main_textpage{
 	.sidebar{
 		position: relative;
 		background-color: white;
 		margin: 0 0 5px 0;
 		text-align: right;
-		.nav-profile{
+		.nav-textpage{
 			margin: 0 0 5px 0;
 			h4{
 				color: #003366;
@@ -59,7 +59,7 @@
 	}
 }
 
-.profile__header{
+.content__header_textpage{
 	.wrapper{
 		border-radius: 10px 10px 0 0;
 		border: 5px solid #d3eaf8;
@@ -74,7 +74,7 @@
 	}
 }
 
-.main-col_profile{
+.main-col_textpage{
 	margin-left: -5px;
 	width: 785px;
 	float: left;

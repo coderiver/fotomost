@@ -7,7 +7,17 @@ $link: #006699;
 $txt: #006699;
 $color: #ff6600;
 
-
+//stars
+.stars{
+	display: inline-block;
+	.star{
+		display: inline-block;
+		@include sized-sprite($icons, star-ico);
+	}
+	.chosen{
+		@include sized-sprite($icons, star-chosen-ico);
+	}
+}
 
 /* -------------------------------------------- CONTAINER -------------------------------------------- */
 
@@ -46,14 +56,14 @@ $color: #ff6600;
 
 // Container
 		.title-1{
-			font-size: 34px;
+			font-size: 27px;
 			color: $title-1;
 			position: relative;
 			padding-left: 29px;
 			font-weight: normal;
 		}
 
-		.product__header{
+		.content__header_product{
 			.wrapper{
 				border-radius: 10px 10px 0 0;
 				border: 5px solid #d3eaf8;
@@ -175,16 +185,7 @@ form{
 				margin: 0 20px;
 			}
 
-			.stars{
-				display: inline-block;
-				.star{
-					display: inline-block;
-					@include sized-sprite($icons, star-ico);
-				}
-				.chosen{
-					@include sized-sprite($icons, star-chosen-ico);
-				}
-			}
+
 
 		//product__info
 		.product__info{

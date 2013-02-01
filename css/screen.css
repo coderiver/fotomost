@@ -107,7 +107,19 @@ ul.bottom-menu li span { margin-left: 5px; }
 
 .page-nav { color: #999; font-size: 12px; position: relative; }
 .page-nav .pages { color: #666; font-size: 12px; }
-.page-nav .pages.current { color: #666; font-size: 12px; border: 1px solid #9a9a9a; border-radius: 3px; padding: 0 4px; width: 15px; display: inline-block; text-align: center; }
+.page-nav .pages.pages_current { border: 1px solid #9a9a9a; border-radius: 3px; padding: 0 4px; width: 15px; display: inline-block; text-align: center; }
+.page-nav .prev { background: url('../img/icons-s5035aa038f.png') 0 -840px no-repeat; width: 8px; height: 14px; content: ""; position: absolute; top: 1px; left: -15px; cursor: default; }
+.page-nav .prev.active { background: url('../img/icons-s5035aa038f.png') 0 -60px no-repeat; width: 8px; height: 14px; cursor: pointer; }
+.page-nav .next { background: url('../img/icons-s5035aa038f.png') 0 -84px no-repeat; width: 8px; height: 14px; content: ""; position: absolute; top: 1px; right: -15px; cursor: default; }
+.page-nav .next.active { background: url('../img/icons-s5035aa038f.png') 0 -816px no-repeat; width: 8px; height: 14px; cursor: pointer; }
+
+.stars { display: inline-block; }
+.stars .star { display: inline-block; background: url('../img/icons-s5035aa038f.png') 0 -733px no-repeat; width: 12px; height: 12px; }
+.stars .chosen { background: url('../img/icons-s5035aa038f.png') 0 -794px no-repeat; width: 12px; height: 12px; }
+
+.page-nav { color: #999; font-size: 12px; position: relative; }
+.page-nav .pages { color: #666; font-size: 12px; }
+.page-nav .pages.pages_current { border: 1px solid #9a9a9a; border-radius: 3px; padding: 0 4px; width: 15px; display: inline-block; text-align: center; }
 .page-nav .prev { background: url('../img/icons-s5035aa038f.png') 0 -840px no-repeat; width: 8px; height: 14px; content: ""; position: absolute; top: 1px; left: -15px; cursor: default; }
 .page-nav .prev.active { background: url('../img/icons-s5035aa038f.png') 0 -60px no-repeat; width: 8px; height: 14px; cursor: pointer; }
 .page-nav .next { background: url('../img/icons-s5035aa038f.png') 0 -84px no-repeat; width: 8px; height: 14px; content: ""; position: absolute; top: 1px; right: -15px; cursor: default; }

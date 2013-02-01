@@ -1,14 +1,17 @@
 .content__main_compare { color: #666; }
+.content__main_compare a { color: #333; text-decoration: none; margin: 0 25px; }
 .content__main_compare .compare-br { border-radius: 10px 0 0; }
-.content__main_compare .compare__item-title { overflow: hidden; }
-.content__main_compare .compare__media { float: left; margin: 0 5px 0 0; }
-.content__main_compare .compare__media img { max-width: 60px; min-height: 60px; }
+.content__main_compare .compare__item-title { display: inline-block; width: 120px; vertical-align: middle; font-size: 14px; }
+.content__main_compare .compare__media { display: inline-block; vertical-align: middle; margin: 0 5px 0 0; }
+.content__main_compare .compare__media img { max-width: 70px; min-height: 60px; }
 .content__main_compare table { text-align: left; border-spacing: 0; width: 1000px; }
-.content__main_compare thead th { border-top: 5px solid #bde0f4; padding: 5px 0; }
-.content__main_compare thead th:first-child { border-radius: 10px 0 0 0; border-left: 5px solid #bde0f4; font-size: 25px; width: 220px; }
-.content__main_compare thead th:last-child { border-radius: 0 10px 0 0; border-right: 5px solid #bde0f4; }
+.content__main_compare thead th { border-top: 5px solid #71b1e5; padding: 5px 0; vertical-align: middle; }
+.content__main_compare thead th a { display: inline-block; }
+.content__main_compare thead th:first-child { border-radius: 10px 0 0 0; border-left: 5px solid #71b1e5; width: 220px; }
+.content__main_compare thead th:last-child { border-radius: 0 10px 0 0; border-right: 5px solid #71b1e5; }
 .content__main_compare tbody td { border-bottom: 1px dotted #71b1e5; padding: 5px 25px; width: 260px; }
 .content__main_compare tbody th { background-color: #d3eaf8; border-bottom: 1px dotted #71b1e5; width: 220px; margin: 0 15px; text-align: right; padding: 0 20px 0; }
 .content__main_compare tbody tr:last-child th { border-bottom: none; border-radius: 0 0 0 10px; }
-.content__main_compare tbody tr:first-child th { background-color: #bde0f4; border-radius: 0 10px 0 0; border-bottom: none; color: #003366; font-size: 18px; height: 35px; }
-.content__main_compare tbody tr:first-child td { background-color: #bde0f4; border-bottom: none; color: white; font-size: 18px; border-left: 1px solid white; }
+.content__main_compare tbody tr:first-child th { background-color: #71b1e5; border-radius: 0 10px 0 0; border-bottom: none; color: #003366; font-size: 18px; height: 35px; }
+.content__main_compare tbody tr:first-child td { background-color: #71b1e5; border-bottom: none; color: white; font-family: Tahoma, "Geneva CY", sans-serif; border-left: 1px solid white; font-size: 18px; }
+.content__main_compare tbody tr:first-child td span { font-size: 26px; }

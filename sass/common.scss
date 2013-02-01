@@ -34,10 +34,13 @@
 
 
 *{margin:0;padding:0;-webkit-text-size-adjust: none; }
-img{@extend %gray;}
+img{
+   //@extend %gray;
+   border: 0;
+}
 body{
 	font: {
-	    family: Arial,sans-serif;
+	    family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
 	    weight: normal;
 	    size: 12px;
 	  	}

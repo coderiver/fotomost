@@ -1,0 +1,7 @@
+.item { margin: 20px 50%; width: 100px; position: relative; }
+.item .prev, .item .next { content: ""; position: absolute; top: 44px; cursor: default; }
+.item .prev.active, .item .next.active { cursor: pointer; }
+.item .prev { background: url('../img/icons-s5035aa038f.png') 0 -840px no-repeat; width: 8px; height: 14px; left: -10px; }
+.item .prev.active { background: url('../img/icons-s5035aa038f.png') 0 -60px no-repeat; width: 8px; height: 14px; }
+.item .next { background: url('../img/icons-s5035aa038f.png') 0 -84px no-repeat; width: 8px; height: 14px; right: -10px; }
+.item .next.active { background: url('../img/icons-s5035aa038f.png') 0 -816px no-repeat; width: 8px; height: 14px; }

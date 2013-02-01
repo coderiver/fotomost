@@ -1,0 +1,34 @@
+@import "base";
+
+.item{
+	margin: 20px 50%;
+	width: 100px;
+	position: relative;
+
+	.prev,
+	.next{
+		content: "";
+		position: absolute;
+		top: 44px;
+		cursor: default;
+		&.active{
+			cursor: pointer;
+		}
+	}
+
+		.prev{
+			@include sized-sprite($icons, page-nav__prev-btn);
+			left: -10px;
+			&.active{
+				@include sized-sprite($icons, page-nav__prev-btn_active);
+			}
+		}
+
+		.next{
+			@include sized-sprite($icons, page-nav__next-btn);
+			right: -10px;
+			&.active{
+				@include sized-sprite($icons, page-nav__next-btn_active);
+			}
+		}
+}

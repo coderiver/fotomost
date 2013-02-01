@@ -8,73 +8,12 @@ $txt: #006699;
 $color: #ff6600;
 
 
-//page-nav
-.page-nav{
-	color: #999;
-	font-size: 12px;
-	position: relative;
 
-	.pages{
-		color: #666;
-		font-size: 12px;
-		&.pages_current{
-			border: 1px solid #9a9a9a;
-			border-radius: 3px;
-			padding: 0 4px;
-			width: 15px;
-			display: inline-block;
-			text-align: center;
-		}
-	}
-
-
-	.prev{
-		@include sized-sprite($icons, page-nav__prev-btn);
-		content: "";
-		position: absolute;
-		top: 1px;
-		left: -15px;
-		cursor: default;
-		&.active{
-			@include sized-sprite($icons, page-nav__prev-btn_active);
-			cursor: pointer;
-		}
-	}
-
-
-	.next{
-		@include sized-sprite($icons, page-nav__next-btn);
-		content: "";
-		position: absolute;
-		top: 1px;
-		right: -15px;
-		cursor: default;
-		&.active{
-			@include sized-sprite($icons, page-nav__next-btn_active);
-			cursor: pointer;
-		}
-	}
-
-}
-
-	//page-nav page-nav_product
-	.page-nav_product{
-		float: right;
-		display: block;
-		margin: 5px 15px 5px 0;
-	}
-
-
-//stars
-.stars{
-	display: inline-block;
-	.star{
-		display: inline-block;
-		@include sized-sprite($icons, star-ico);
-	}
-	.chosen{
-		@include sized-sprite($icons, star-chosen-ico);
-	}
+//page-nav page-nav_product
+.page-nav_product{
+	float: right;
+	display: block;
+	margin: 5px 15px 5px 0;
 }
 
 /* -------------------------------------------- CONTAINER -------------------------------------------- */

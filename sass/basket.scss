@@ -294,6 +294,8 @@
 
 .ra__img{
 	margin-bottom: 15px;
+	max-height: 60px;
+    overflow: hidden;
 	img{
 		max-width: 70px;
     	min-height: 60px;
@@ -331,7 +333,6 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-bottom: 15px;
 	&:after{
 		position: absolute;
 		content: "";

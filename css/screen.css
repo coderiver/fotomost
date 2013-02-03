@@ -328,7 +328,7 @@ ul.border-b__none { border-bottom: none; }
 .ra__item a { text-decoration: none; }
 .ra__item:last-child { border-right: none; }
 
-.ra__img { margin-bottom: 15px; }
+.ra__img { margin-bottom: 15px; max-height: 60px; overflow: hidden; }
 .ra__img img { max-width: 70px; min-height: 60px; }
 
 .ra__info { font-weight: bold; color: #333; height: 50px; overflow: hidden; margin-bottom: 15px; }
@@ -337,7 +337,7 @@ ul.border-b__none { border-bottom: none; }
 
 .ra__price { font-size: 16px; color: #f60; margin-bottom: 15px; }
 
-.btn-basket_2 { display: inline-block; background: url('../img/icons-s66032b3132.png') 0 -841px no-repeat; width: 78px; height: 29px; width: 105px; height: 29px; position: relative; line-height: 29px; text-align: left; padding-left: 5px; color: white; text-decoration: none; text-transform: uppercase; font-weight: bold; margin-bottom: 15px; }
+.btn-basket_2 { display: inline-block; background: url('../img/icons-s66032b3132.png') 0 -841px no-repeat; width: 78px; height: 29px; width: 105px; height: 29px; position: relative; line-height: 29px; text-align: left; padding-left: 5px; color: white; text-decoration: none; text-transform: uppercase; font-weight: bold; }
 .btn-basket_2:after { position: absolute; content: ""; right: 5px; top: 0; background: url('../img/icons-s66032b3132.png') 0 -60px no-repeat; width: 27px; height: 29px; }
 
 .lteie8 body { background: red; }

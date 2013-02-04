@@ -1,0 +1,168 @@
+@import "base";
+
+.slider{
+   width: 990px;
+   height: 215px;
+   //float: left;  
+   margin-top: 5px;
+}
+
+
+// wrap-scrollable
+.wrap-scrollable{
+   width: 994px;
+   height: 80px;  
+   margin:5px 0 15px; 
+   padding: 4px 0; 
+   //float: left; 
+   border-top: 5px solid #a7d6f1;
+   border-right: 5px solid #a7d6f1;
+   border-bottom: 5px solid #a7d6f1;  
+   border-radius: 0px 5px 5px 0;
+   position: relative;
+
+   .scrollable__switch{
+   		width: 73px;
+   		height: 15px;
+ 		position: absolute;
+ 		top: -15px;
+ 		right: 30px;	
+ 		background-color: #fff;
+ 		padding: 0 4px;  		
+   }    
+	 .scrollable__fix{
+        @include sized-sprite($icons, scroll_icons);	 	
+		width: 133px;
+		height: 40px;		
+		font: 16px Arial, sans-serif;
+		color: #f60;
+		padding: 20px 4px;
+		float: left;
+	}  
+	.toggle{
+        @include sized-sprite($icons, arrow);		
+		width: 11px;
+		height: 88px; 
+		position: absolute;
+		right: 10px;
+		top: 0px;	
+		a{
+			width: 11px;
+			height: 20px;
+			display: inline-block;
+			position: absolute;
+			top: 30px;
+		}	
+	}
+}
+.scrollable__items{
+	height: 78px;
+	float: left;
+	margin-left: 10px;
+	border-right: 2px dotted #dbe2e8;
+	.scrollable__img{
+		float: left;
+	}
+	.scrollable__descr{
+		width: 100px;
+		height: 70px;	
+		float: left;		
+		margin: 7px 5px;
+		font: 12px Arial,sans-serif;
+		line-height: 14px;
+		overflow: hidden;		
+	}
+}
+
+// item-product
+ul.item-product{
+	list-style: none;
+	float: left;
+	border-bottom: 1px solid #a7d6f1;		
+	li{
+		width: 329px;	
+		height: 163px;
+		padding-bottom: 25px;
+		border-right: 1px solid #a7d6f1;
+		float: left;
+		position: relative;
+
+    	&:last-child{
+				border-right: none;       		
+    	}				
+	}
+}
+
+
+ul.border-b__none{
+	border-bottom: none;
+}
+
+.item-foto{
+	width: 185px;
+	margin: 10px 0 0 10px;
+	float: left;
+}
+
+// wrap-description
+.wrap-description{
+	width: 115px;
+	float: right;
+	text-align: right;
+	font: 16px Tahoma, sans-serif;
+	color: #666;
+	margin-right: 15px;
+	margin-top: 5px;
+	p{
+		height: 95px;
+		overflow: hidden;
+	}
+	.price{
+		position: absolute;
+		top: 120px;
+		right: 15px;
+		b{
+			font: 26px Tahoma,sans-serif;
+			color: #f60;
+			font-weight: normal;
+			display: block;
+		}
+		i{
+			font: 18px Tahoma,sans-serif;
+			color: #999;
+
+		}		
+	}
+
+}
+
+// add-chip
+.add-chip{
+    @include sized-sprite($icons, add-chip);
+	width: 70px;
+	height: 15px;
+	padding: 7px 4px;
+	position: absolute;
+	bottom: 15px;
+	left: 20px;
+	a{
+		width: 70px;
+		height: 15px;
+		padding: 7px 4px;
+		font: 11px Tahoma,sans-serif;
+		color: #fff;
+		font-weight: bold;
+		text-decoration: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+}
+.add-chip_position{
+	position: relative;	
+	bottom: 0;
+	left: 0;
+	display: inline-block;
+	float: left;
+}

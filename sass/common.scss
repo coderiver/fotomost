@@ -79,21 +79,16 @@ a{
    }
 }
 
-.out{
-   width: 1000px;
-   margin: 0 auto;
-}
-.wrap{
-    margin: 0 auto;
-}
+
 
 // header
 .header-conteiner{
+   overflow: hidden;
    .menu-border{
       width: 7px;
       height: 37px;
       float: left;
-      @include sized-sprite($icons, top-menu_border);     
+      @include sized-sprite($icons, top-menu_border);
    }
 }
 .top-nav{
@@ -163,13 +158,13 @@ ul.login{
 .wrap-logo{
    width: 1000px;
    height: 36px;
-   float: left;   
+   //float: left;   
    position: relative;
       .logo{
          @include sized-sprite($icons, logo);         
          width: 198px;
-         height: 49px;              
-         position: relative;
+         height: 49px;
+         position: absolute;
          top: -13px;
          left: 0px; 
          float: left;   
@@ -196,7 +191,7 @@ ul.login{
 .search-conteiner{
    width: 802px;
    height: 30px;
-   float: left;
+   float: right;
    border-radius: 5px;
    @include background-image(linear-gradient(top, #b5ddf3 0%,
    #99d0ef 50%, #80c4ea 100%));
@@ -264,7 +259,7 @@ form.search{
    border-left: 5px solid #d3eaf8;  
    border-bottom: 5px solid #d3eaf8;   
    border-radius: 10px 0 0 10px;
-   float: left;
+   //float: left;
 }
 .primary-nav{
    position: relative;
@@ -316,10 +311,11 @@ form.search{
 //footer
 
 .footer{
-   width: 1000px;
+   width: 100%;
    @include background-image(linear-gradient(top, #cee8f7 0%,
    #7ac1ea 50%, #6abae7 100%));   
-   float: left;
+   //float: left;
+   display: inline-block;
    border-radius: 5px 5px 0 0;
    font: 10px Arial, sans-serif;
    line-height: 15px;

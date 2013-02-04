@@ -259,14 +259,6 @@ ul.border-b__none { border-bottom: none; }
 .add-chip { background: url('../img/icons-s66032b3132.png') 0 -430px no-repeat; width: 78px; height: 29px; width: 70px; height: 15px; padding: 7px 4px; position: absolute; bottom: 15px; left: 20px; }
 .add-chip a { width: 70px; height: 15px; padding: 7px 4px; font: 12px Tahoma, sans-serif; color: #fff; text-decoration: none; position: absolute; top: 0; left: 0; }
 
-.item { margin: 20px 50%; width: 100px; position: relative; }
-.item .prev, .item .next { content: ""; position: absolute; top: 44px; cursor: default; }
-.item .prev.active, .item .next.active { cursor: pointer; }
-.item .prev { background: url('../img/icons-s66032b3132.png') 0 -1081px no-repeat; width: 8px; height: 14px; left: -10px; }
-.item .prev.active { background: url('../img/icons-s66032b3132.png') 0 -99px no-repeat; width: 8px; height: 14px; }
-.item .next { background: url('../img/icons-s66032b3132.png') 0 -123px no-repeat; width: 8px; height: 14px; right: -10px; }
-.item .next.active { background: url('../img/icons-s66032b3132.png') 0 -1057px no-repeat; width: 8px; height: 14px; }
-
 .basket { border-radius: 10px; border: 5px solid #d3eaf8; overflow: hidden; padding: 10px 0 0 20px; margin-bottom: 17px; border-bottom: none; }
 
 .basket__col1 { float: left; margin: 0 20px 0 0; }

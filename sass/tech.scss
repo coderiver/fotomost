@@ -252,7 +252,7 @@
 	.conteiner__left{
 		width: 600px;
 		float: left;
-		margin: 0 30px;
+		margin: 0 25px;
 		.conteiner__meta{
 				font: 20px Arial,sans-serif;
 				color: #666;
@@ -329,7 +329,7 @@
 		margin: 10px 5px;
 		&:first-child{
 			border-right: 1px solid #a7d6f1;
-			margin-left: 25px;
+			margin-left: 32px;
 		}
 		&:last-child{
 			margin-right: 20px;
@@ -354,7 +354,7 @@
 		.sexy-item__check-r{
    			@include sized-sprite($icons, arrow_r-dark);
 			position: relative;
-			right: -135px;
+			right: -125px;
 			top: 40px;
 			display: inline-block;
 			a{
@@ -380,4 +380,74 @@
 	.sexy-slider__img{
 		display: inline-block;
 	}
+}
+
+// END sexy-slider //
+
+// comment
+
+.comment{
+	width: 100%;
+}
+
+.comment-item{
+		border-bottom: 1px dotted #a7d6f1;
+		overflow: hidden;
+		padding: 5px 0;
+	.comment-item__head{
+		font-size: 14px;
+		b{
+			color: #f30;
+		}
+	}
+	.comment-item__body{
+
+	}
+	.comment-item__bottom{
+		float: right;
+		font-weight: bold;
+	}
+}
+
+// END comment //
+
+// form
+
+.form{
+	font: 11px Arial,sans-serif;
+	line-height: 20px;
+	color: #999;
+	margin: 20px 15px;
+	width:290px;
+	position: relative;
+	input{
+		width: 277px;
+		height: 20px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+	}
+	textarea{
+		width: 277px;
+		min-height: 101px;
+		resize: vertical;
+	}
+	span{
+		display: inline-block;
+	}
+}
+.send-button{
+    @include sized-sprite($icons, send);
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 4px 0px 4px 7px;
+	margin-top:10px;
+}
+.trash{
+	@include sized-sprite($icons, trash);
+	display: inline-block;
+	position: absolute;
+	bottom: 33px;
+	right: 30px;
 }

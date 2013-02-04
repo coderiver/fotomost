@@ -110,3 +110,15 @@ div.btn-credit{
 }
 
 
+
+
+.stars_gray{
+	.star{
+		display: inline-block;
+		@include sized-sprite($icons, star-disable-ico);
+	}
+
+	.chosen{
+		@include sized-sprite($icons, star-chosen-ico);
+	}
+}

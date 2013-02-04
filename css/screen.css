@@ -127,7 +127,7 @@ ul.bottom-menu li span { margin-left: 5px; }
 .breadcrumbs a { text-decoration: none; color: #666; font-size: 10px; }
 .breadcrumbs a:hover { text-decoration: underline; }
 
-.title-1 { font-size: 27px; color: #666666; position: relative; padding-left: 29px; font-weight: normal; }
+.title-1 { font-size: 27px; color: #666666; position: relative; padding-left: 29px; font-weight: normal; line-height: 3; }
 
 .content__header_product .wrapper { border-radius: 10px 10px 0 0; border: 5px solid #d3eaf8; border-bottom: none; }
 .content__header_product .wrapper:before { background: url('../img/icons-s66032b3132.png') 0 -1124px no-repeat; width: 8px; height: 9px; position: absolute; bottom: 0; left: 5px; content: ""; }

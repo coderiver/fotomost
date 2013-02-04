@@ -245,14 +245,15 @@
 .ra{
 	border-radius: 10px;
 	border: 5px solid #d3eaf8;
-	position: relative;
-	height: 270px; //tmp
-	padding: 0 35px;
+    display: inline-block;
+    padding: 0 35px;
+    position: relative;
+    width: 920px;;
 	&:after{
 		position: absolute;
 		bottom: -5px;
 		left: 25px;
-		width: 95%;
+		width: 935px;
 		content: "";
 		height: 5px;
 		background-color: white;
@@ -265,7 +266,7 @@
     left: 25px;
     position: absolute;
     top: -14px;
-    width: 93.6%;
+    width: 920px;
     padding-left: 15px;
     color: #666;
     font-size: 16px;
@@ -279,7 +280,7 @@
 }
 
 .ra__item{
-	padding: 15px 5px 0;
+	padding: 15px 5px;
 	text-align: center;
 	width: 119px;
 	border-right: 1px dotted #a7d6f1;

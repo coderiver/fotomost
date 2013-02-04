@@ -33,6 +33,8 @@
 .basket__item .item__price strong { font-size: 26px; }
 .basket__item .btn-clear-item { content: ""; background: url('../img/icons-s66032b3132.png') 0 -811px no-repeat; width: 20px; height: 20px; display: inline-block; vertical-align: middle; }
 .basket__item .item__info .item__title { color: #666; font-size: 16px; font-family: Tahoma, "Geneva CY", sans-serif; }
+.basket__item .item__info .item__title a { color: #666; text-decoration: none; }
+.basket__item .item__info .item__title a:hover { text-decoration: underline; }
 .basket__item .item__info .item__status, .basket__item .item__info .item__code { float: left; }
 .basket__item .item__info .item__status { margin-right: 20px; font-size: 12px; color: #999; }
 .basket__item .item__info .item__code { font-size: 12px; color: #069; }

@@ -161,6 +161,13 @@
 			color: #666;
 			font-size: 16px;
 			font-family: Tahoma, "Geneva CY", sans-serif;
+			a{
+				color: #666;
+				text-decoration: none;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
 		}
 		.item__status,
 		.item__code{

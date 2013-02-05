@@ -7,6 +7,42 @@
 }
 
 
+//slider
+.items__slider{
+	.caro {
+	    height: 78px;
+	    overflow: hidden;
+	    position: relative;
+	    width: 835px;
+    }
+    .slides{
+    	position: absolute;
+    	width: 20000em;
+    }
+}
+
+.items__slider, .items__slide {
+    float: left;
+}
+
+
+//navi
+.navi{
+	position: absolute;
+	top: -15px;
+	right: 33px;
+	background-color: #fff;
+    padding: 0 4px;
+	a{
+		float: left;
+		margin: 0 1px;
+		@include sized-sprite($icons, nav);
+		&.active{
+			@include sized-sprite($icons, "nav-active");
+		}
+	}
+}
+
 // wrap-scrollable
 .wrap-scrollable{
 	width: 994px;
@@ -19,15 +55,6 @@
 	border-radius: 0px 5px 5px 0;
 	position: relative;
 
-	.scrollable__switch{
-		width: 73px;
-		height: 15px;
- 		position: absolute;
- 		top: -15px;
- 		right: 30px;
- 		background-color: #fff;
- 		padding: 0 4px;
-	}
 	 .scrollable__fix{
 		@include sized-sprite($icons, scroll_icons);
 		width: 133px;
@@ -45,12 +72,10 @@
 		position: absolute;
 		right: 10px;
 		top: 0px;
-		a{
-			width: 11px;
-			height: 20px;
-			display: inline-block;
-			position: absolute;
-			top: 30px;
+		cursor: pointer;
+		&.disabled{
+			@include sized-sprite($icons, "arrow-stop");
+			cursor: default;
 		}
 	}
 }

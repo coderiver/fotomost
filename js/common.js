@@ -27,6 +27,14 @@ $(document).ready(function() {
 		});
 	};
 
+/////////////////////////////////////////////////////
+	if ($('#items-slider').exists()){
+		$('#items-slider .caro').scrollable({
+			next:'#items-slider .toggle'
+		}).navigator();
+	};
+/////////////////////////////////////////////////////
+
 	if ($('#ra-slider-min1').exists()){
 		$('#ra-slider-min1 .caro').scrollable({
 			next:'#ra-slider-min1 .ra__next',
@@ -78,7 +86,5 @@ $(document).ready(function() {
 		$(this).parent().parent('tr').remove();
 		return false;
 	});
-
-
 
 });

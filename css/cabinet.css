@@ -1,0 +1,22 @@
+.content__main_textpage .sidebar { position: relative; background-color: white; margin: 0 0 5px 0; text-align: right; }
+.content__main_textpage .sidebar .nav-textpage { margin: 0 0 5px 0; }
+.content__main_textpage .sidebar .nav-textpage h4 { color: #003366; font-size: 12px; }
+.content__main_textpage .sidebar .nav-textpage a { border-bottom: 1px dotted #71b1e5; display: block; text-decoration: none; color: #003366; }
+.content__main_textpage .sidebar .nav-textpage a:hover { text-decoration: underline; }
+.content__main_textpage .sidebar .profile__data { border: 1px solid #d3eaf8; border-radius: 0 10px; margin: 0 0 5px; padding: 10px 20px; color: #ff6600; }
+.content__main_textpage .sidebar .profile__data a { color: #ff6600; text-decoration: none; }
+.content__main_textpage .sidebar .profile__data a:hover { text-decoration: underline; }
+.content__main_textpage .sidebar .profile__data h4 { color: #666; font-size: 13px; margin-bottom: 1em; }
+.content__main_textpage .sidebar .profile__data h5 { color: #999999; font-size: 12px; }
+.content__main_textpage .sidebar .profile__data .profile__edit { margin-top: 15px; display: block; text-decoration: underline; }
+.content__main_textpage .sidebar .profile__data .profile__edit:hover { text-decoration: none; }
+
+.content__header_textpage .wrapper { border-radius: 10px 10px 0 0; border: 5px solid #d3eaf8; border-bottom: none; }
+.content__header_textpage .wrapper:before { background: url('../img/icons-sa7df00d1a1.png') 0 -1708px no-repeat; width: 8px; height: 9px; position: absolute; bottom: 0; left: 5px; content: ""; }
+
+.main-col_textpage { margin-left: -5px; width: 785px; float: left; }
+.main-col_textpage .wrapper { border-radius: 0 0 10px 10px; border-top: none; }
+.main-col_textpage article { margin: 0 25px 40px 50px; min-height: 400px; color: #666; }
+.main-col_textpage article p { margin-bottom: 1em; }
+
+.title-2 { font-size: 24px; border-bottom: 1px dotted #a7d6f1; margin-bottom: 1em; font-weight: normal; }

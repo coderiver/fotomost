@@ -9,6 +9,13 @@ $color: #ff6600;
 
 
 
+//page-nav page-nav_product
+.page-nav_product{
+	float: right;
+	display: block;
+	margin: 5px 15px 5px 0;
+}
+
 /* -------------------------------------------- CONTAINER -------------------------------------------- */
 
 // Breadcrumbs
@@ -46,13 +53,15 @@ $color: #ff6600;
 
 // Container
 		.title-1{
-			font-size: 34px;
+			font-size: 27px;
 			color: $title-1;
 			position: relative;
 			padding-left: 29px;
+			font-weight: normal;
+			line-height: 3;
 		}
 
-		.product__header{
+		.content__header_product{
 			.wrapper{
 				border-radius: 10px 10px 0 0;
 				border: 5px solid #d3eaf8;
@@ -84,15 +93,16 @@ $color: #ff6600;
 /* -------------------------------------------- SIDEBAR -------------------------------------------- */
 
 //filters
-.filters{
+.nav-sidebar{
 	background-color: $border;
 	border-radius: 0 10px 0 10px;
-	line-height: 1.8;
-	padding: 20px 20px 20px 30px;
+	line-height: 2;
+	padding: 20px;
+}
+.nav-filters{
 	h4{
 		color: black;
 		font-size: 13px;
-		margin-left: 5px;
 		font-weight: bold;
 	}
 	ul{
@@ -141,12 +151,6 @@ form{
 	margin: 20px 0;
 }
 
-//page-nav page-nav_product
-.page-nav_product{
-	float: right;
-	display: block;
-	margin: 5px 0;
-}
 
 	//product
 	.product{
@@ -173,16 +177,7 @@ form{
 				margin: 0 20px;
 			}
 
-			.stars{
-				display: inline-block;
-				.star{
-					display: inline-block;
-					@include sized-sprite($icons, star-ico);
-				}
-				.chosen{
-					@include sized-sprite($icons, star-chosen-ico);
-				}
-			}
+
 
 		//product__info
 		.product__info{
@@ -294,12 +289,13 @@ form{
 						position: absolute;
 						top:0;
 						left: 0;
-						@include sized-sprite($icons, btn-basket);
+						@include sized-sprite($icons, "btn-basket");
 						display: inline-block;
 						text-transform: uppercase;
 						text-decoration: none;
 						&:hover{
 							text-decoration: none;
+							@include sized-sprite($icons, "btn-basket-hover");
 						}
 						strong{
 							position: absolute;
@@ -316,9 +312,10 @@ form{
 					    top: 0;
 					    color: $color;
 						font-family: Tahoma, "Geneva CY", sans-serif; //?
-						@include sized-sprite($icons, btn-credit);
+						@include sized-sprite($icons, "btn-credit");
 						&:hover{
 							text-decoration: none;
+							@include sized-sprite($icons, "btn-credit-hover");
 						}
 						span{
 						    left: 20px;

@@ -115,10 +115,10 @@ div.btn-credit{
 .stars_gray{
 	.star{
 		display: inline-block;
-		@include sized-sprite($icons, star-disable-ico);
+		@include sized-sprite($icons, "star-gray-ico");
 	}
 
 	.chosen{
-		@include sized-sprite($icons, star-chosen-ico);
+		@include sized-sprite($icons, "star-gray-chosen-ico");
 	}
 }

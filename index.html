@@ -5,6 +5,8 @@
 	<meta charset="utf-8">
 	<title>Template</title>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
+	<script src="js/jquery.tools.min.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
 <!-- BEGIN  out-->
@@ -31,7 +33,7 @@
 			<div><span>Пн-Пт: </span>09:00-19:00</div>
 			<div><span>Сб: </span>10:00-16:00</div>
 			<div class="mr14"><span>Вс: </span>Выходной</div>
-		</div>			
+		</div>
 	</div>
 	<!-- END  header-conteiner-->
 
@@ -49,8 +51,8 @@
 				<span>(044)<b>369-57-55 </b></span>
 				<span>(044)<b>222-72-52 </b></span>
 			</div>
-		</div>	
-		<div class="wrap-logo__note">интернет магазин</div>	
+		</div>
+		<div class="wrap-logo__note">интернет магазин</div>
 	</div>
 	<!-- END  wrap-logo-->
 
@@ -63,23 +65,68 @@
 				<li><a href="#"> Фотоаксессуары</a></li>
 				<li><a href="#">Видео</a></li>
 				<li><a href="#">Студийный свет</a></li>
-				<li><a href="#">Аксессуары</a></li>	
-				<li><a href="#">Ноутбуки</a></li>													
-			</ul>	
+				<li><a href="#">Аксессуары</a></li>
+				<li><a href="#">Ноутбуки</a></li>
+			</ul>
 			<div class="chip">
 				<div class="chip-note">
 					<div>Корзина:</div>
 					<div>Сейчас пуста</div>
-				</div>	
+				</div>
 			</div>
+			<!-- BEGIN basket-popup -->
+			<div class="basket-popup">
+				<table class="basket__item">
+					<tr>
+						<th><img src="http://placehold.it/77x45" alt=""></th>
+						<td>
+							<div class="item__info">
+								<div class="item__title item__title_popup"><a href="#">Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)</a></div>
+							</div>
+						</td>
+						<td>
+							<div class="item__num">
+								<a href="#" class="more"></a><input type="text" value="1"><a href="#" class="less"></a>
+							</div>
+						</td>
+						<td><div class="item__price item__price_popup"><strong>2200</strong>грн</div></td>
+						<td><a href="#" class="btn-clear-item"></a></td>
+					</tr>
+					<tr>
+						<th><img src="http://placehold.it/77x45" alt=""></th>
+						<td>
+							<div class="item__info">
+								<div class="item__title item__title_popup"><a href="#">Sigma 24-70mm f/2.8 IF EX DG</a></div>
+							</div>
+						</td>
+						<td>
+							<div class="item__num">
+								<a href="#" class="more"></a><input type="text" value="2"><a href="#" class="less"></a>
+							</div>
+						</td>
+						<td><div class="item__price item__price_popup"><strong>1300</strong>грн</div></td>
+						<td><a href="#" class="btn-clear-item"></a></td>
+					</tr>
+				</table>
+
+				<div class="basket__order_popup">
+					<a class="btn-make-order__popup" href="#">Оформить заказ</a>
+				</div>
+				<!-- BEGIN basket__item-amount -->
+				<div class="basket__item-amount basket__item-amount_popup">
+					Всего 2 товара на сумму: <strong>4800</strong>грн
+				</div>
+				<!-- END basket__item-amount -->
+			</div>
+			<!-- END basket-popup -->
 		</div>
 
 		<div class="slider"><a href="#"><img src="img/slider1.jpg"></a></div>
-	</div>	
+	</div>
 	<!-- END  wrap-slider-->
 
-	<!-- BEGIN  wrap-scrollable-->						
-	<div class="wrap-scrollable"> 
+	<!-- BEGIN  wrap-scrollable-->
+	<div class="wrap-scrollable">
 		<div class="scrollable__switch"><img src="img/switch.jpg"></div>
 		<div class="scrollable__fix">
 			ЛУЧШИЕ ПРЕДЛОЖЕНИЯ
@@ -148,7 +195,7 @@
 			<li>
 				<div class="item-foto">
 					<img src="img/item1.jpg">
-					<div class="add-chip"><a href="#">В КОРЗИНУ</a></div>
+					<a href="#" class="add-chip">В КОРЗИНУ</a>
 				</div>
 
 				<div class="wrap-description">
@@ -166,7 +213,7 @@
 			<li>
 				<div class="item-foto">
 					<img src="img/item2.jpg">
-					<div class="add-chip"><a href="#">В КОРЗИНУ</a></div>
+					<a href="#" class="add-chip">В КОРЗИНУ</a>
 				</div>
 
 				<div class="wrap-description">
@@ -181,7 +228,7 @@
 			<li>
 				<div class="item-foto">
 					<img src="img/item3.jpg">
-					<div class="add-chip"><a href="#">В КОРЗИНУ</a></div>
+					<a href="#" class="add-chip">В КОРЗИНУ</a>
 				</div>
 
 				<div class="wrap-description">
@@ -199,7 +246,7 @@
 			<li>
 				<div class="item-foto">
 					<img src="img/item1.jpg">
-					<div class="add-chip"><a href="#">В КОРЗИНУ</a></div>
+					<a href="#" class="add-chip">В КОРЗИНУ</a>
 				</div>
 
 				<div class="wrap-description">
@@ -214,7 +261,7 @@
 			<li>
 				<div class="item-foto">
 					<img src="img/item2.jpg">
-					<div class="add-chip"><a href="#">В КОРЗИНУ</a></div>
+					<a href="#" class="add-chip">В КОРЗИНУ</a>
 				</div>
 
 				<div class="wrap-description">
@@ -229,7 +276,7 @@
 			<li>
 				<div class="item-foto">
 					<img src="img/item3.jpg">
-					<div class="add-chip"><a href="#">В КОРЗИНУ</a></div>
+					<a href="#" class="add-chip">В КОРЗИНУ</a>
 				</div>
 
 				<div class="wrap-description">
@@ -240,8 +287,8 @@
 						<i>2400грн</i>
 					</div>
 				</div>
-			</li>				
-		</ul>						
+			</li>
+		</ul>
 	</div>
 	<!-- END  content-->
 

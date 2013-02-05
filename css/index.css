@@ -14,9 +14,15 @@
 .wrap-scrollable .toggle { background: url('../img/icons-s8131dd2bf4.png') 0 -1074px no-repeat; width: 11px; height: 87px; width: 11px; height: 88px; position: absolute; right: 10px; top: 0px; cursor: pointer; }
 .wrap-scrollable .toggle.disabled { background: url('../img/icons-s8131dd2bf4.png') 0 -331px no-repeat; width: 11px; height: 87px; cursor: default; }
 
-.scrollable__items { height: 78px; float: left; margin-left: 10px; border-right: 2px dotted #dbe2e8; }
-.scrollable__items .scrollable__img { float: left; }
-.scrollable__items .scrollable__descr { width: 100px; height: 70px; float: left; margin: 7px 5px; font: 12px Arial, sans-serif; line-height: 14px; overflow: hidden; }
+.scrollable__items { height: 78px; float: left; padding: 0 5px; border-left: 2px dotted #dbe2e8; }
+.scrollable__items:first-child { border-left: none; }
+.scrollable__items a { display: inline-block; }
+
+.scrollable__img { float: left; }
+
+.scrollable__descr { width: 100px; height: 70px; float: left; margin: 7px 5px; font: 12px Arial, sans-serif; line-height: 14px; overflow: hidden; }
+.scrollable__descr p { text-decoration: none; color: #666; }
+.scrollable__descr p:hover { text-decoration: underline; }
 
 ul.item-product { list-style: none; float: left; border-bottom: 1px solid #a7d6f1; }
 ul.item-product li { width: 329px; height: 163px; padding-bottom: 25px; border-left: 1px solid #a7d6f1; float: left; position: relative; }

@@ -3,16 +3,16 @@
 /* -------------------------------------------- CONTAINER -------------------------------------------- */
 .breadcrumbs { padding: 0 5px; position: absolute; top: -11px; left: 20px; background-color: white; }
 .breadcrumbs ul { list-style-type: none; }
-.breadcrumbs li { position: relative; display: inline-block; margin-left: 10px; }
-.breadcrumbs li:before { background: url('../img/icons-sa8b4229802.png') 0 -2122px no-repeat; width: 4px; height: 7px; color: #d1d1d1; content: ""; left: -8px; position: absolute; top: 35%; }
+.breadcrumbs li { position: relative; display: inline; margin-left: 10px; }
+.breadcrumbs li:before { background: url('../img/icons-s90e63fdf23.png') 0 -2148px no-repeat; width: 4px; height: 7px; color: #d1d1d1; content: ""; left: -8px; position: absolute; top: 35%; }
 .breadcrumbs a { text-decoration: none; color: #666; font-size: 10px; }
 .breadcrumbs a:hover { text-decoration: underline; }
 
 .title-1 { font-size: 27px; color: #666666; position: relative; padding-left: 29px; font-weight: normal; line-height: 3; }
 
 .content__header_product .wrapper { border-radius: 10px 10px 0 0; border: 5px solid #d3eaf8; border-bottom: none; }
-.content__header_product .wrapper:before { background: url('../img/icons-sa8b4229802.png') 0 -2103px no-repeat; width: 8px; height: 9px; position: absolute; bottom: 0; left: 5px; content: ""; }
-.content__header_product .wrapper:after { background: url('../img/icons-sa8b4229802.png') 0 -286px no-repeat; width: 8px; height: 9px; position: absolute; bottom: 0; right: 5px; content: ""; }
+.content__header_product .wrapper:before { background: url('../img/icons-s90e63fdf23.png') 0 -2129px no-repeat; width: 8px; height: 9px; position: absolute; bottom: 0; left: 5px; content: ""; }
+.content__header_product .wrapper:after { background: url('../img/icons-s90e63fdf23.png') 0 -286px no-repeat; width: 8px; height: 9px; position: absolute; bottom: 0; right: 5px; content: ""; }
 
 /* -------------------------------------------- // END CONTAINER -------------------------------------------- */
 /* -------------------------------------------- SIDEBAR -------------------------------------------- */
@@ -57,11 +57,11 @@ form { display: inline-block; }
 .product .product__links .link-compare label:hover { text-decoration: none; }
 .product .product__links .link-compare input { display: inline-block; vertical-align: middle; }
 .product .buy-buttons { position: relative; width: 160px; height: 29px; overflow: hidden; }
-.product .buy-buttons .btn-basket { font-size: 11px !important; font-family: Tahoma, "Geneva CY", sans-serif; color: #ffffff; position: absolute; top: 0; left: 0; background: url('../img/icons-sa8b4229802.png') 0 -1752px no-repeat; width: 78px; height: 29px; display: inline-block; text-transform: uppercase; text-decoration: none; }
-.product .buy-buttons .btn-basket:hover { text-decoration: none; background: url('../img/icons-sa8b4229802.png') 0 -99px no-repeat; width: 78px; height: 29px; }
+.product .buy-buttons .btn-basket { font-size: 11px !important; font-family: Tahoma, "Geneva CY", sans-serif; color: #ffffff; position: absolute; top: 0; left: 0; background: url('../img/icons-s90e63fdf23.png') 0 -1778px no-repeat; width: 78px; height: 29px; display: inline-block; text-transform: uppercase; text-decoration: none; }
+.product .buy-buttons .btn-basket:hover { text-decoration: none; background: url('../img/icons-s90e63fdf23.png') 0 -99px no-repeat; width: 78px; height: 29px; }
 .product .buy-buttons .btn-basket strong { position: absolute; left: 6px; top: 6px; }
-.product .buy-buttons .btn-credit { font-size: 12px; line-height: 1; position: absolute; right: 0; text-decoration: none; top: 0; color: #ff6600; font-family: Tahoma, "Geneva CY", sans-serif; background: url('../img/icons-sa8b4229802.png') 0 -1881px no-repeat; width: 86px; height: 29px; }
-.product .buy-buttons .btn-credit:hover { text-decoration: none; background: url('../img/icons-sa8b4229802.png') 0 -138px no-repeat; width: 86px; height: 29px; }
+.product .buy-buttons .btn-credit { font-size: 12px; line-height: 1; position: absolute; right: 0; text-decoration: none; top: 0; color: #ff6600; font-family: Tahoma, "Geneva CY", sans-serif; background: url('../img/icons-s90e63fdf23.png') 0 -1907px no-repeat; width: 86px; height: 29px; }
+.product .buy-buttons .btn-credit:hover { text-decoration: none; background: url('../img/icons-s90e63fdf23.png') 0 -138px no-repeat; width: 86px; height: 29px; }
 .product .buy-buttons .btn-credit span { left: 20px; position: absolute; text-align: right; text-transform: uppercase; top: 2px; }
 
 /* -------------------------------------------- // END MAIN-COL -------------------------------------------- */

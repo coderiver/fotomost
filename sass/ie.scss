@@ -1,5 +1,25 @@
 .lteie8{
 	body{
-		background:red;
+		background: white;
 	}
+
+	.primary-nav ul{
+		background: url(../img/primary-nav-bg.png) repeat-x #6abae7;
+	}
+
+	.footer{
+		background: url(../img/footer-bg.png) repeat-x #6abae7;
+	}
+
+	.basket__order{
+		&:before{
+			@include sized-sprite($icons, "basket-before-ie");
+		}
+	}
+
+	.search-conteiner{
+		background: url(../img/search-bg.png) repeat-x #6abae7;
+	}
+
+
 }

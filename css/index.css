@@ -2,8 +2,8 @@
 
 .wrap-scrollable { width: 994px; height: 80px; margin: 5px 0 15px; padding: 4px 0; border-top: 5px solid #a7d6f1; border-right: 5px solid #a7d6f1; border-bottom: 5px solid #a7d6f1; border-radius: 0px 5px 5px 0; position: relative; }
 .wrap-scrollable .scrollable__switch { width: 73px; height: 15px; position: absolute; top: -15px; right: 30px; background-color: #fff; padding: 0 4px; }
-.wrap-scrollable .scrollable__fix { background: url('../img/icons-sa53d004345.png') 0 -366px no-repeat; width: 141px; height: 80px; width: 133px; height: 40px; font: 16px Arial, sans-serif; color: #f60; padding: 20px 4px; float: left; }
-.wrap-scrollable .toggle { background: url('../img/icons-sa53d004345.png') 0 -873px no-repeat; width: 11px; height: 87px; width: 11px; height: 88px; position: absolute; right: 10px; top: 0px; }
+.wrap-scrollable .scrollable__fix { background: url('../img/icons-s90e63fdf23.png') 0 -470px no-repeat; width: 141px; height: 80px; width: 133px; height: 40px; font: 16px Arial, sans-serif; color: #f60; padding: 20px 4px; float: left; text-transform: uppercase; }
+.wrap-scrollable .toggle { background: url('../img/icons-s90e63fdf23.png') 0 -977px no-repeat; width: 11px; height: 87px; width: 11px; height: 88px; position: absolute; right: 10px; top: 0px; }
 .wrap-scrollable .toggle a { width: 11px; height: 20px; display: inline-block; position: absolute; top: 30px; }
 
 .scrollable__items { height: 78px; float: left; margin-left: 10px; border-right: 2px dotted #dbe2e8; }
@@ -11,22 +11,25 @@
 .scrollable__items .scrollable__descr { width: 100px; height: 70px; float: left; margin: 7px 5px; font: 12px Arial, sans-serif; line-height: 14px; overflow: hidden; }
 
 ul.item-product { list-style: none; float: left; border-bottom: 1px solid #a7d6f1; }
-ul.item-product li { width: 329px; height: 163px; padding-bottom: 25px; border-right: 1px solid #a7d6f1; float: left; position: relative; }
-ul.item-product li:last-child { border-right: none; }
+ul.item-product li { width: 329px; height: 163px; padding-bottom: 25px; border-left: 1px solid #a7d6f1; float: left; position: relative; }
+ul.item-product li:first-child { border-left: none; }
 
 ul.border-b__none { border-bottom: none; }
 
 .item-foto { width: 185px; margin: 10px 0 0 10px; float: left; height: 134px; line-height: 134px; }
+.item-foto a { display: inline-block; }
 .item-foto img { max-height: 134px; max-width: 185px; vertical-align: middle; }
 
 .wrap-description { width: 115px; float: right; text-align: right; font: 16px Tahoma, sans-serif; color: #666; margin-right: 15px; margin-top: 5px; }
+.wrap-description a { color: #666; text-decoration: none; display: inline-block; }
+.wrap-description a:hover { text-decoration: underline; }
 .wrap-description p { height: 88px; overflow: hidden; line-height: 21px; }
 .wrap-description .price { position: absolute; top: 120px; right: 15px; }
 .wrap-description .price b { font: 26px Tahoma, sans-serif; color: #f60; font-weight: normal; display: block; }
 .wrap-description .price i { font: 18px Tahoma, sans-serif; color: #999; }
 
-.add-chip { position: absolute; bottom: 15px; left: 20px; font: 11px Tahoma, sans-serif; color: #fff; font-weight: bold; text-decoration: none; line-height: 29px; text-indent: 4px; text-decoration: none; background: url('../img/icons-sa53d004345.png') 0 -569px no-repeat; width: 78px; height: 29px; }
+.add-chip { position: absolute; bottom: 15px; left: 20px; font: 11px Tahoma, sans-serif; color: #fff; font-weight: bold; text-decoration: none; line-height: 29px; text-indent: 4px; text-decoration: none; background: url('../img/icons-s90e63fdf23.png') 0 -673px no-repeat; width: 78px; height: 29px; }
 .add-chip a { color: #fff; text-decoration: none; display: block; width: 100%; }
-.add-chip:hover { background: url('../img/icons-sa53d004345.png') 0 -640px no-repeat; width: 78px; height: 29px; }
+.add-chip:hover { background: url('../img/icons-s90e63fdf23.png') 0 -744px no-repeat; width: 78px; height: 29px; }
 
 .add-chip_position { position: relative; bottom: 0; left: 0; display: inline-block; float: left; }

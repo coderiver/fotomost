@@ -36,6 +36,7 @@
 		color: #f60;
 		padding: 20px 4px;
 		float: left;
+		text-transform: uppercase;
 	}
 	.toggle{
 		@include sized-sprite($icons, arrow);
@@ -81,11 +82,11 @@ ul.item-product{
 		width: 329px;
 		height: 163px;
 		padding-bottom: 25px;
-		border-right: 1px solid #a7d6f1;
+		border-left: 1px solid #a7d6f1;
 		float: left;
 		position: relative;
-		&:last-child{
-			border-right: none;
+		&:first-child{
+			border-left: none;
 		}
 	}
 }
@@ -96,11 +97,14 @@ ul.border-b__none{
 }
 
 .item-foto{
-	width: 185px;
-	margin: 10px 0 0 10px;
-	float: left;
-	height: 134px;
-	line-height: 134px;
+	 width: 185px;
+	 margin: 10px 0 0 10px;
+	 float: left;
+	 height: 134px;
+	 line-height: 134px;
+	 a{
+	  display: inline-block;
+	 }
 	img{
 		max-height: 134px;
 		max-width: 185px;
@@ -117,6 +121,14 @@ ul.border-b__none{
 	color: #666;
 	margin-right: 15px;
 	margin-top: 5px;
+	a{
+	color: #666;
+	text-decoration: none;
+	display: inline-block;
+		&:hover{
+		text-decoration: underline;
+		}
+	}
 	p{
 		height: 88px;
 		overflow: hidden;

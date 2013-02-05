@@ -30,7 +30,7 @@ $color: #ff6600;
 	}
 	li{
 		position: relative;
-		display: inline-block;
+		display: inline;
 		margin-left: 10px;
 		&:before{
 			@include sized-sprite($icons, breadcrumbs);

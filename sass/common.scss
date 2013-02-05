@@ -19,6 +19,11 @@ a{
 		text-decoration:none;
 	}
 }
+
+a,button,input,textarea,label,select{
+  outline:none;
+}
+
 // common styles, these could be attached to any block with "@extend %wyswyg;"
 %wyswyg{
 	p{
@@ -207,8 +212,8 @@ form.search{
 
 }
 .phone-number{
-	float: left;
-	margin: 0px 0 0 10px;
+	float: right;
+	margin: 0 10px;
 	color: #036;
 	span{
 		b{
@@ -271,7 +276,10 @@ form.search{
 	.chip-note{
 		position: absolute;
 		top: 10px;
-		right: 5px;
+		right: 20px;
+	}
+	.chip-num{
+		text-decoration: underline;
 	}
 }
 
@@ -438,13 +446,13 @@ ul.bottom-menu{
 	margin:10px 0;
 	text-align: center;
 	width: 100px;
-	border-right: 1px dotted #a7d6f1;
+	border-left: 1px dotted #a7d6f1;
 	float: left;
 	a{
 		text-decoration: none;
 	}
-	&:last-child{
-		border-right: none;
+	&:first-child{
+		border-left: none;
 	}
 	.ra__img{
 		margin-bottom: 15px;

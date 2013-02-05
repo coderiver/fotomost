@@ -6,7 +6,7 @@
 .items__slider, .items__slide { float: left; }
 
 .navi { position: absolute; top: -15px; right: 33px; background-color: #fff; padding: 0 4px; }
-.navi a { float: left; margin: 0 1px; background: url('../img/icons-s8131dd2bf4.png') 0 -1900px no-repeat; width: 16px; height: 15px; }
+.navi a { float: left; margin: 0 1px; cursor: pointer; background: url('../img/icons-s8131dd2bf4.png') 0 -1900px no-repeat; width: 16px; height: 15px; }
 .navi a.active { background: url('../img/icons-s8131dd2bf4.png') 0 -1845px no-repeat; width: 15px; height: 15px; }
 
 .wrap-scrollable { width: 994px; height: 80px; margin: 5px 0 15px; padding: 4px 0; border-top: 5px solid #a7d6f1; border-right: 5px solid #a7d6f1; border-bottom: 5px solid #a7d6f1; border-radius: 0px 5px 5px 0; position: relative; }

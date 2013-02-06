@@ -209,8 +209,8 @@ form.search{
 		 color: #fff;
 		}
 	}
-
 }
+
 .phone-number{
 	float: right;
 	margin: 0 10px;
@@ -224,6 +224,7 @@ form.search{
 		}
 	}
 }
+
 .wrap-slider{
 	width: 985px;
 	padding: 5px;
@@ -232,6 +233,7 @@ form.search{
 	border-bottom: 5px solid #d3eaf8;
 	border-radius: 10px 0 0 10px;
 }
+
 .primary-nav{
 	position: relative;
 	ul{
@@ -243,25 +245,78 @@ form.search{
 		#7eb9e8 50%, #4599dd 100%));
 		list-style: none;
 		li{
-		padding: 4px 10px;
-		margin: 5px 0 0;
-		float: left;
-		@include sized-sprite($icons, "primary-menu_border");
-		width: auto;
-		height: auto;
-		&:first-child{
-			background: none;
-		}
+			margin: 5px 0 0;
+			padding: 0 4px;
+			float: left;
+			@include sized-sprite($icons, "primary-menu_border");
+			width: auto;
+			height: auto;
+			&:hover{
+				a{
+					background-color: #80c4ea;
+					@include background-image(linear-gradient(#d1e9f8, #80c4ea));
+					border-radius: 4px 4px 0 0;
+					color: #000;
+					text-decoration: none;
+				}
+				ul{
+					display: block;
+					li{
+						a{
+							background: none;
+							color: white;
+						}
+					}
+				}
+			}
+			ul{
+				display: none;
+				position: absolute;
+				background-image: none;
+				background-color: #80c4ea;
+				height: auto;
+				width: 140px;
+				padding: 5px 4px 8px;
+				top: 37px;
+				margin-left: 1px;
+				border-radius: 0 0 4px 4px;
+				z-index: 3000;
+				li{
+					float: none;
+					background: none;
+					border-bottom: 1px dotted white;
+					margin: 0;
+					padding: 3px 0;
+					&:first-child{
+						border-top: 1px dotted white;
+					}
+					a{
+						background: none;
+						color: white;
+						font-size: 12px;
+						padding: 0 0 0 5px;
+						margin: 0;
+						&:hover{
+							color: #036;
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+				&:first-child{
+					background: none;
+				}
 			a{
-				font: 18px Arial,sans-serif;
+				padding: 4px 5px 10px;
+				font: 18px/1.6 Arial,sans-serif;
 				text-decoration: none;
 				color: #fff;
-				line-height: 24px;
-				&:hover{text-decoration: underline;}
+				margin: 0 1px;
 			}
 		}
 	}
 }
+
 .chip{
 	@include sized-sprite($icons, chip);
 	width: 106px;

@@ -498,6 +498,7 @@ div.btn-credit { display: inline-block; background: url('../img/icons-s8131dd2bf
 
 .lteie8 body { background: white; }
 .lteie8 .primary-nav ul { background: url(../img/primary-nav-bg.png) repeat-x #6abae7; }
+.lteie8 .primary-nav ul ul { background: none; background-color: #80c4ea; }
 .lteie8 .footer { background: url(../img/footer-bg.png) repeat-x #6abae7; }
 .lteie8 .basket__order:before { background: url('../img/icons-s8131dd2bf4.png') 0 -305px no-repeat; width: 21px; height: 16px; }
 .lteie8 .search-conteiner { background: url(../img/search-bg.png) repeat-x #6abae7; }

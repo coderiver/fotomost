@@ -15,17 +15,17 @@ a, button, input, textarea, label, select { outline: none; }
 .top-nav { width: 800px; height: 25px; margin: 7px 0px 0 85px; float: left; border-bottom: 5px solid #d3eaf8; }
 .top-nav ul.top-menu { list-style: none; float: right; margin-right: 5px; }
 .top-nav ul.top-menu li { float: left; margin-left: 5px; }
-.top-nav ul.top-menu li a { font: 11px Arial, sans-serif; text-decoration: none; color: #000; }
+.top-nav ul.top-menu li a { font: 11px Arial,sans-serif; text-decoration: none; color: #000; }
 .top-nav ul.top-menu li a:hover { text-decoration: underline; }
 .top-nav ul.top-menu li span { margin-left: 5px; }
 
 ul.login { list-style: none; }
 ul.login li { float: left; margin-right: 10px; }
-ul.login li a { font: 11px Arial, sans-serif; color: #003366; text-decoration: none; }
+ul.login li a { font: 11px Arial,sans-serif; color: #003366; text-decoration: none; }
 ul.login li a:hover { text-decoration: underline; }
 ul.login li span { margin-left: 10px; color: #677a95; }
 
-.operation-time { width: 108px; height: 37px; background-color: #d3eaf8; float: right; display: inline-block; font: 10px Arial, sans-serif; line-height: 10px; color: #069; border-radius: 0px 0px 10px 0; }
+.operation-time { width: 108px; height: 37px; background-color: #d3eaf8; float: right; display: inline-block; font: 10px Arial,sans-serif; line-height: 10px; color: #069; border-radius: 0px 0px 10px 0; }
 .operation-time div { font-weight: bold; float: right; margin-right: 10px; }
 .operation-time div.mr14 { margin-right: 14px; }
 .operation-time span { width: 30px; font-weight: normal; }
@@ -38,7 +38,7 @@ ul.login li span { margin-left: 10px; color: #677a95; }
 .search-conteiner { width: 802px; height: 30px; float: right; border-radius: 5px; background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I1ZGRmMyIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjOTlkMGVmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjODBjNGVhIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'); background-size: 100%; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b5ddf3), color-stop(50%, #99d0ef), color-stop(100%, #80c4ea)); background-image: -webkit-linear-gradient(top, #b5ddf3 0%, #99d0ef 50%, #80c4ea 100%); background-image: -moz-linear-gradient(top, #b5ddf3 0%, #99d0ef 50%, #80c4ea 100%); background-image: -o-linear-gradient(top, #b5ddf3 0%, #99d0ef 50%, #80c4ea 100%); background-image: linear-gradient(top, #b5ddf3 0%, #99d0ef 50%, #80c4ea 100%); margin-top: 3px; }
 
 form.search { margin: 4px 0 0 4px; position: relative; float: left; }
-form.search input { width: 336px; height: 20px; border-radius: 5px; border: 1px solid white; padding: 0 7px; font: 12px Arial, sans-serif; line-height: 20px; }
+form.search input { width: 336px; height: 20px; border-radius: 5px; border: 1px solid #fff; padding: 0 7px; font: 12px Arial,sans-serif; line-height: 20px; }
 form.search input:-moz-placeholder { color: #036; }
 form.search input:-o-placeholder { color: #036; }
 form.search input::-webkit-input-placeholder { color: #036; }
@@ -62,9 +62,9 @@ form.search button span { display: none; line-height: 1; font-weight: bold; colo
 .primary-nav ul li ul li a { background: none; color: white; font-size: 12px; padding: 0 0 0 5px; margin: 0; }
 .primary-nav ul li ul li a:hover { color: #036; text-decoration: underline; }
 .primary-nav ul li:first-child { background: none; }
-.primary-nav ul li a { padding: 4px 5px 10px; font: 18px/1.6 Arial, sans-serif; text-decoration: none; color: #fff; margin: 0 1px; }
+.primary-nav ul li a { padding: 4px 5px 10px; font: 18px/1.6 Arial,sans-serif; text-decoration: none; color: #fff; margin: 0 1px; }
 
-.chip { background: url('../img/icons-s8131dd2bf4.png') 0 -517px no-repeat; width: 106px; height: 40px; width: 106px; height: 40px; position: absolute; top: 0px; right: -5px; border-radius: 0 10px 10px 0; font: 10px Arial, sans-serif; line-height: 10px; cursor: pointer; }
+.chip { background: url('../img/icons-s8131dd2bf4.png') 0 -517px no-repeat; width: 106px; height: 40px; width: 106px; height: 40px; position: absolute; top: 0px; right: -5px; border-radius: 0 10px 10px 0; font: 10px Arial,sans-serif; line-height: 10px; cursor: pointer; }
 .chip .chip-note { position: absolute; top: 10px; left: 32px; }
 .chip .chip-num { text-decoration: underline; }
 

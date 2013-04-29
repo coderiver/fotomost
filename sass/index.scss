@@ -179,8 +179,12 @@ ul.border-b__none{
 		b{
 			font: 26px Tahoma,sans-serif;
 			color: #f60;
-			font-weight: normal;
+			font-weight: bold;
 			display: block;
+			span{
+				font-weight: normal;
+				font-size: 18px;
+			}
 		}
 		i{
 			font: 18px Tahoma,sans-serif;

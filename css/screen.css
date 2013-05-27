@@ -298,6 +298,8 @@ form { display: inline-block; }
 
 .product_alt { min-height: 155px; }
 .product_alt .product__info { width: 553px; margin: 20px 0 0; }
+.product_alt .product__content { margin-bottom: 3px; }
+.product_alt .product__meta { margin-bottom: 3px; }
 .product_alt .product__description { width: 553px; }
 .product_alt .product__text { line-height: 1.2; }
 
@@ -306,6 +308,8 @@ form { display: inline-block; }
 .product__name { margin-bottom: 5px; }
 
 .empty-border { height: 54px; margin-bottom: 5px; border-top: 1px solid #a7d6f1; border-bottom: 1px solid #a7d6f1; }
+
+.empty-border__bt { margin-top: -10px; height: 1px; border-bottom: none; }
 
 .search__result { color: #003366; }
 

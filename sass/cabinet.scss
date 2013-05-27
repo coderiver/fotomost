@@ -330,6 +330,12 @@
 		width: 553px;
 		margin: 20px 0 0;
 	}
+	.product__content{
+		margin-bottom: 3px;
+	}
+	.product__meta{
+		margin-bottom: 3px;
+	}
 	.product__description{
 		width: 553px;
 	}
@@ -350,4 +356,9 @@
 	margin-bottom: 5px;
 	border-top: 1px solid #a7d6f1;
 	border-bottom: 1px solid #a7d6f1;
+}
+.empty-border__bt{
+	margin-top: -10px;
+	height: 1px;
+	border-bottom: none;
 }

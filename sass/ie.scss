@@ -1,0 +1,29 @@
+.lteie8{
+	body{
+		background: white;
+	}
+
+	.primary-nav ul{
+		background: url(../img/primary-nav-bg.png) repeat-x #6abae7;
+		ul{
+			background: none;
+			background-color: #80c4ea;
+		}
+	}
+
+	.footer{
+		background: url(../img/footer-bg.png) repeat-x #6abae7;
+	}
+
+	.basket__order{
+		&:before{
+			@include sized-sprite($icons, "basket-before-ie");
+		}
+	}
+
+	.search-conteiner{
+		background: url(../img/search-bg.png) repeat-x #6abae7;
+	}
+
+
+}

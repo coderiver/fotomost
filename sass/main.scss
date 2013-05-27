@@ -1,0 +1,20 @@
+@import "base";
+
+.out{
+   width: 1000px;
+   margin: 0 auto;
+}
+
+// CONTAINER (CONTENT)
+.content{
+	background-color: white;
+	margin: 5px 0 10px;
+    position: relative;
+}
+
+// MAIN WRAPPER WITH BORDER
+.wrapper{
+	border: 5px solid #d3eaf8;
+    border-radius: 10px 10px 10px 10px;
+}
+

@@ -1,0 +1,295 @@
+﻿@import "base";
+
+.basket{
+	border-radius: 10px;
+	border: 5px solid #d3eaf8;
+	overflow: hidden;
+	padding: 10px 0 0 20px;
+	margin-bottom: 17px;
+	border-bottom: none;
+}
+
+	.basket__col1{
+		float: left;
+		margin: 0 20px 0 0;
+		table{
+			width: 680px;
+			border-spacing: 0;
+			th{
+				width: 90px;
+				border-bottom: 1px solid #a7d6f1;
+				img{
+					max-width: 77px;
+					min-height: 45px;
+				}
+			}
+			td{
+				border-bottom: 1px solid #a7d6f1;
+				padding: 20px 0 30px;
+			}
+		}
+	}
+
+	.basket__title{
+		font-size: 20px;
+		color: #666;
+		border-bottom: 1px solid #a7d6f1;
+		margin-bottom: 25px;
+	}
+
+	.basket__order{
+		margin-top: 45px;
+		float: left;
+		width: 100%;
+		line-height: 29px;
+		border-radius:  10px 0 10px 10px;
+		border: 5px solid #d3eaf8;
+		border-right: none;
+		background-color: #d3eaf8;
+		position: relative;
+		&:before{
+			content: "";
+			position: absolute;
+			bottom: -5px;
+			left: -30px;
+			@include sized-sprite($icons, basket-before);
+		}
+		&:after{
+			content: "";
+			right: 5px;
+			top: -14px;
+			position: absolute;
+			@include sized-sprite($icons, cor-br);
+		}
+
+	}
+
+
+.basket__item{
+	overflow: hidden;
+	margin-bottom: 25px;
+	.item__num{
+		margin: 0 20px 0 15px;
+		.more, .less{
+			content: "";
+			display: inline-block;
+			vertical-align: middle;
+		}
+			.more{
+				@include sized-sprite($icons, more-ico);
+			}
+			.less{
+				@include sized-sprite($icons, less-ico);
+			}
+		input{
+			width: 19px;
+			text-align: center;
+			vertical-align: middle;
+			height: 22px;
+			border: 1px solid #54a2e0;
+			border-radius: 2px;
+		}
+	}
+	.item__price{
+		margin-right: 20px;
+		color: #f60;
+		font-size: 18px;
+		font-family: Tahoma, "Geneva CY", sans-serif;
+		strong{
+			font-size: 26px;
+		}
+	}
+
+	.btn-clear-item{
+		content: "";
+		@include sized-sprite($icons, "btn-clear");
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.item__info{
+		.item__title{
+			color: #666;
+			font-size: 16px;
+			font-family: Tahoma, "Geneva CY", sans-serif;
+			a{
+				color: #666;
+				text-decoration: none;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+		.item__status,
+		.item__code{
+			float: left;
+		}
+		.item__status{
+			margin-right: 20px;
+			font-size: 12px;
+			color: #999;
+		}
+		.item__code{
+			font-size: 12px;
+			color: #069;
+		}
+	}
+}
+
+.basket__item-amount{
+	float: right;
+	color: #f60;
+	font-size: 16px;
+	strong{
+		font-size: 24px;
+		font-weight: normal;
+	}
+}
+
+.btn-make-order{
+	border-radius: 5px 0 0 5px;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	font-family: Tahoma, "Geneva CY", sans-serif;
+	background: url(../img/icons/btn-make-order.png) repeat-x;
+	height: 29px;
+	font-weight: bold;
+	padding: 0 7px;
+	position: relative;
+	margin-right: 20px;
+	float: left;
+	&:after{
+		position: absolute;
+		right: -20px;
+		top: 0;
+		content: "";
+		@include sized-sprite($icons, "btn-make-order-after");
+	}
+}
+
+
+.order__credit{
+	background-color: white;
+	border-radius: 0 5px 5px 0;
+	float: left;
+	padding: 0 5px;
+	color: #f60;
+	font-size: 12px;
+	a{
+		text-transform: uppercase;
+		color: #f60;
+		margin-left: 35px;
+	}
+}
+
+.btn-clear,
+.btn-continue{
+	border-radius: 5px;
+	background-color: #4599dd;
+	text-transform: uppercase;
+	padding: 0 5px;
+	float: left;
+	margin-left: 8px;
+	font-weight: bold;
+	&:hover{
+		background-color: #069;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+		display: block;
+		width: 100%;
+	}
+}
+
+.btn-basket_2{
+	display: inline-block;
+	@include sized-sprite($icons, "btn-basket");
+	width: 105px;
+	height: 29px;
+	position: relative;
+	line-height: 29px;
+	text-align: left;
+	padding-left: 5px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	&:after{
+		position: absolute;
+		content: "";
+		right: 5px;
+		top: 0;
+		@include sized-sprite($icons, "btn-basket-after");
+	}
+}
+
+.chip{
+	z-index: 25;
+}
+
+.basket-popup{
+	position: absolute;
+	top: 37px;
+	right: -5px;
+	background-color: #fff;
+	z-index: 22;
+	border-radius: 10px 0 10px 10px;
+	border: 3px solid #f60;
+	padding: 15px;
+	display: none;
+	&:before{
+		position: absolute;
+		content:"";
+		top:-22px;
+		right: 81px;
+		@include sized-sprite($icons, "basket-arr");
+	}
+	table{
+		width: 380px;
+	}
+
+	.basket__item{
+		.item__title_popup{
+			width: 110px;
+			font-size: 11px;
+			font-weight: bold;
+			margin-left: 5px;
+		}
+		.item__price_popup{
+			font-size: 11px;
+			strong{
+				font-size: 13px;
+			}
+		}
+	}
+
+	.basket__item-amount_popup{
+		font-size: 11px;
+		strong{
+			font-size: 13px;
+			font-weight: bold;
+		}
+	}
+
+	.basket__order_popup{
+		display: inline-block;
+		.btn-make-order__popup{
+			@include sized-sprite($icons, btn-popup);
+			color: #fff;
+			line-height: 24px;
+			vertical-align: middle;
+			display: inline-block;
+			padding-left: 5px;
+			font-size: 11px;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-decoration: none;
+			&:hover{
+				@include sized-sprite($icons, btn-popup-hover);
+			}
+		}
+	}
+}

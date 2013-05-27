@@ -296,6 +296,17 @@ form { display: inline-block; }
 
 .page-nav_position { position: relative; top: -7px; right: 0; }
 
+.product_alt { min-height: 155px; }
+.product_alt .product__info { width: 553px; margin: 20px 0 0; }
+.product_alt .product__description { width: 553px; }
+.product_alt .product__text { line-height: 1.2; }
+
+.link-compare a { color: #ff6600; }
+
+.product__name { margin-bottom: 5px; }
+
+.empty-border { height: 54px; margin-bottom: 5px; border-top: 1px solid #a7d6f1; border-bottom: 1px solid #a7d6f1; }
+
 .search__result { color: #003366; }
 
 .content__main_compare { color: #666; }

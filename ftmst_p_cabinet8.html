@@ -224,10 +224,10 @@
 	<!-- BEGIN sidebar -->
 	<aside class="sidebar">
 		<nav class="nav-sidebar nav-textpage">
-			<h4>Панель управления аккаунтом</h4>
+			<a href="#">Панель управления аккаунтом</a>
  			<a href="#">Данные учётной записи</a>
 			<a href="#">Адресная книга</a>
-			<a href="#">Мои заказы</a>
+			<h4 class="active">Мои заказы</h4>
 			<a href="#">Мои отзывы о товарах</a>
 		</nav>
 		<div class="profile__data">
@@ -244,75 +244,76 @@
 	<!-- BEGIN main-col -->
 	<div class="main-col_textpage">
 		<div class="wrapper">
-			<article class="cabinet cabinet_page7">
+			<article class="cabinet cabinet_alt">
+				<div class="cabinet__link">Вернуться к списку заказов</div>
 				<h2>Мои заказы</h2>
-				<div class="page-nav__note">Отзывы с 1 до 3 из 3</div>
-				<!-- BEGIN page-nav -->
-				<div class="page-nav page-nav_product">
-					<a href="#" class="prev"></a>
-					страница <input type="text" value="1" class="pages pages_current"> из <span class="pages">80</span>
-					<a href="#" class="next active"></a>
-				</div>
-				<!-- END page-nav -->
-				<table class="supertable">
-					<thead>
-						<tr>
-							<th>Заказ#</th>
-							<th>Дата</th>
-							<th>Доставка	</th>
-							<th>Состояние</th>
-							<th>Сумма Заказа</th>
-							<th>&nbsp;</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>1000</td>
-							<td>10.12.2013</td>
-							<td>Ivanov ivan Khotab</td>
-							<td>На рассмотрении</td>
-							<td>15000 грн</td>
-							<td><a href="#">Просмотреть заказ</a></td>
-						</tr>
-						<tr>
-							<td>1000</td>
-							<td>10.12.2013</td>
-							<td>Ivanov ivan Khotab</td>
-							<td>На рассмотрении</td>
-							<td>15000 грн</td>
-							<td><a href="#">Просмотреть заказ</a></td>
-						</tr>
-						<tr>
-							<td>1000</td>
-							<td>10.12.2013</td>
-							<td>Ivanov ivan Khotab</td>
-							<td>На рассмотрении</td>
-							<td>15000 грн</td>
-							<td><a href="#">Просмотреть заказ</a></td>
-						</tr>
-						<tr>
-							<td>1000</td>
-							<td>10.12.2013</td>
-							<td>Ivanov ivan Khotab</td>
-							<td>На рассмотрении</td>
-							<td>15000 грн</td>
-							<td><a href="#">Просмотреть заказ</a></td>
-						</tr>
-					</tbody>
-				</table>
-
-				<div class="wrap-nav">
-					<!-- BEGIN page-nav -->
-					<div class="page-nav page-nav_product">
-						<a href="#" class="prev"></a>
-						страница <input type="text" value="1" class="pages pages_current"> из <span class="pages">80</span>
-						<a href="#" class="next active"></a>
+				<div class="cabinet__return">Расспечатать заказ</div>
+				<h3 class="noborder">Заказ №10000: <i class="arr_blue"></i> <span>На рассмотрении</span></h3>
+				<div class="users">
+					<div class="users__fio">Дата Заказа: <span>12.12.2012</span></div>
+					<div class="users__bold">Адрес доставки:</div>
+					<div class="users__adress">
+						г. Киев, <br>
+						ул. Бориспольская 9, <br>
+						корпус 90, офис 109 <br>
+						тел:+38055226699 <br>
 					</div>
-					<!-- END page-nav -->
 				</div>
-				<div class="some-div">
-					<div class="page-nav__note">Заказы с 1 до 10 из 30</div>
+
+				<!-- BEGIN tov -->
+				<div class="tov-top">
+					<div class="tov-top__item">Товар</div>
+					<div class="tov-top__key">Код товара</div>
+					<div class="tov-top__number">Количество</div>
+					<div class="tov-top__price">Стоимость</div>
 				</div>
+				<div class="tov">
+					<div class="tov-media">
+						<div class="tov-media__left">
+							<div class="tov-media__img">
+								<img src="img//product-2.png" alt="Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)">
+							</div>
+							<div class="tov-media__desc">Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)</div>
+						</div>
+						<div class="tov-desc">
+							<div class="tov-desc__key">1545478</div>
+							<div class="tov-desc__number">2шт.</div>
+							<div class="tov-desc__price">2400</div>
+						</div>
+					</div>
+				</div>
+				<div class="tov">
+					<div class="tov-media">
+						<div class="tov-media__left">
+							<div class="tov-media__img">
+								<img src="img//product-2.png" alt="Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)">
+							</div>
+							<div class="tov-media__desc">Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)</div>
+						</div>
+						<div class="tov-desc">
+							<div class="tov-desc__key">1545478</div>
+							<div class="tov-desc__number">2шт.</div>
+							<div class="tov-desc__price">2400</div>
+						</div>
+					</div>
+				</div>
+				<div class="tov">
+					<div class="tov-media">
+						<div class="tov-media__left">
+							<div class="tov-media__img">
+								<img src="img//product-2.png" alt="Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)">
+							</div>
+							<div class="tov-media__desc">Sigma 24-70mm f/2.8 IF EX DG HSM (для Nikon)</div>
+						</div>
+						<div class="tov-desc">
+							<div class="tov-desc__key">1545478</div>
+							<div class="tov-desc__number">2шт.</div>
+							<div class="tov-desc__price">2400</div>
+						</div>
+					</div>
+				</div>
+				<!-- END tov -->
+				<div class="all-price">Всего 3 товара на сумму: <span class="all-price__price">4800</span>грн</div>
 			</article>
 		</div>
 	</div>

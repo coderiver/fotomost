@@ -1,0 +1,173 @@
+﻿@import "base";
+
+.clr{
+	clear: both;
+}
+.basket__order_mod{
+	width: 767px;
+	margin-left: -7px;
+	&:before{
+		content: "";
+		position: absolute;
+		bottom: -5px;
+		left: -30px;
+		background: none;
+	}
+	&:after{
+		content: "";
+		right: 5px;
+		top: -14px;
+		position: absolute;
+		background: none;
+	}
+}
+.order__credit_mod{
+	a{
+		margin-left: 5px;
+		margin-right: 5px;
+		text-transform: none;
+	}
+}
+// FIX
+.content__header_check{
+	.wrapper{
+		&:after{
+			background: none;
+			width: 0px;
+			height: 0px;
+			position: static;
+		}
+	}
+}
+.basket_check{
+	padding: 0 8px 0 10px;
+	border-top: 0;
+	border-radius: 0 0 10px 0;
+	border-left: 0;
+	.basket__item{
+		margin-bottom: 10px
+	}
+	.basket__col1{
+		margin: 0;
+		table{
+			width: 752px;
+			.basket__descr{
+				width: 370px;
+			}
+		}
+	}
+}
+.sidebar_order{
+	.nav-order{
+		min-height: 635px;
+		background-color: #d3eaf8;
+		border-radius: 0 10px 0 10px;
+		line-height: 2;
+		padding: 20px;
+		ul{
+			list-style: none;
+		}
+		h4{
+			margin-top: -10px;
+			font-size: 16px;
+			color: #666666;
+		}
+		.users{
+			margin-left: 5px;
+		}
+		.users__adress{
+			line-height: 1.4;
+		}
+		.users__tel{
+			text-decoration: underline;
+			&:hover{
+				text-decoration: none;
+				cursor: pointer;
+			}
+		}
+	}
+}
+.adress{
+	font-size: 18px;
+	color: #666;
+	.arr_blue{
+		margin-right: 3px;
+	}
+}
+.superform{
+	@extend %clr;
+	width: 741px;
+	margin-top: 15px;
+	position: relative;
+	padding: 18px 0 12px 9px;
+	border: 1px solid #81cde6;
+	border-radius: 5px;
+}
+.stack{
+	width: 236px;
+	margin-right: 15px;
+	float: left;
+	.stack__top{
+		margin-bottom: 4px;
+		border-bottom: 1px dotted #999;
+		color: #ff6600;
+		h3{
+			margin-bottom: 3px;
+		}
+	}
+	.stack__price{
+		float: right;
+		font-size: 14px;
+		color: #ff6600;
+		font-style: normal;
+	}
+	.row{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 0;
+		color: #666;
+		label{
+			font-size: 12px;
+		}
+	}
+	input[type="radio"] {
+	    display:none;
+	}
+	input[type="radio"] + label span {
+	    display:inline-block;
+	    @include sized-sprite($icons, radio_none);
+	    margin:-1px 4px 0 0;
+	    vertical-align:middle;
+	    cursor:pointer;
+	}
+	input[type="radio"]:checked + label span {
+		@include sized-sprite($icons, radio_checked);
+	}
+}
+.chiken{
+	width: 200px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #81cde6;
+	font-size: 24px;
+	color: #FFF;
+	.chiken__arr{
+		display: inline-block;
+		background: url('../img/icons/form_right.png') 0 50% no-repeat;
+		width: 23px;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.chiken__desc{
+		margin-top: 19%;
+		padding-left: 35px;
+		line-height: 1.2;
+	}
+	.chiken__small{
+		font-size: 12px;
+	}
+}

@@ -1,5 +1,12 @@
 ﻿@import "base";
 
+.chip-note__tov{
+	text-decoration: underline;
+	&:hover{
+		cursor: pointer;
+		text-decoration: none;
+	}
+}
 .clr{
 	clear: both;
 }
@@ -98,6 +105,7 @@
 	@extend %clr;
 	width: 741px;
 	margin-top: 15px;
+	margin-bottom: 60px;
 	position: relative;
 	padding: 18px 0 12px 9px;
 	border: 1px solid #81cde6;
@@ -121,6 +129,54 @@
 		color: #ff6600;
 		font-style: normal;
 	}
+	.stack__select{
+		@extend %clr;
+		width: 240px;
+		margin-top: 5px;
+		margin-left: 10px;
+		.js-select, .js-select2, .js-select3{
+			line-height: 22px;
+			padding: 0 3px;
+			color: #666;
+		}
+		.js-select__select, .js-select__select2, .js-select__select3{
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.row{
+			margin-bottom: 5px;
+			input{
+				width: 219px;
+				padding: 3px;
+				color: #666;
+				&::-webkit-input-placeholder{
+					color: #666;
+				}
+				&:-moz-placeholder{
+					color: #666;
+				}
+			}
+			select{
+				color: #666;
+			}
+		}
+		.row_100, .row_135{
+			float: left;
+		}
+		.row_100{
+			width: 100px;
+		}
+		.row_135{
+			width: 135px;
+		}
+		.select{
+			width: 225px;
+		}
+	}
+	.stack__select_noMargin{
+		margin-left: 0;
+	}
 	.row{
 		width: 100%;
 		margin-right: 0;
@@ -128,6 +184,7 @@
 		color: #666;
 		label{
 			font-size: 12px;
+			color: #666;
 		}
 	}
 	input[type="radio"] {
@@ -163,11 +220,28 @@
 		left: 0;
 	}
 	.chiken__desc{
-		margin-top: 19%;
+		margin-top: 13%;
 		padding-left: 35px;
 		line-height: 1.2;
 	}
 	.chiken__small{
 		font-size: 12px;
+	}
+}
+.superform_large{
+	padding: 10px 0 0px 9px;
+	.chiken{
+		.chiken__desc{
+			margin-top: 32%;
+		}
+	}
+}
+.overpayment{
+	color: #666;
+	font-size: 12px;
+	.overpayment__summ{
+		display: inline-block;
+		color: #ff9900;
+		font-size: 18px;
 	}
 }

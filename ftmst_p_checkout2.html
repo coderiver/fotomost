@@ -301,14 +301,14 @@
 			<div class="clr"></div>
 			<!-- END basket__item-amount -->
 
-			<div class="superform">
+			<div class="superform superform_large">
 				<div class="stack">
 					<form action="">
 						<div class="stack__top">
 							<h3>Оплата</h3>
 						</div>
 						<div class="row">
-							<input type="radio" id="r1" name="rr" />
+							<input type="radio" id="r1" name="rr" checked/>
 							<label for="r1"><span class="radio"><i></i></span>Наличный расчет</label>
 						</div>
 
@@ -333,6 +333,7 @@
 						<div class="stack__top">
 							<h3>Оплата</h3>
 						</div>
+
 						<div class="row">
 							<input type="radio" id="l1" name="rr" />
 							<label for="l1"><span class="radio"><i></i></span>Наличный расчет <i class="stack__price">20грв</i></label>
@@ -349,12 +350,37 @@
 						</div>
 
 						<div class="row">
-							<input type="radio" id="l3" name="rr" />
-							<label for="l3"><span class="radio"><i></i></span>Наличный расчет <i class="stack__price">10грв</i></label>
+							<input type="radio" id="l4" name="rr" checked/>
+							<label for="l4"><span class="radio"><i></i></span>Наличный расчет <i class="stack__price">10грв</i></label>
+						</div>
+					</form>
+					<form action="">
+						<div class="stack__select">
+							<div class="row">
+								<div class="select">
+									<div class="js-select"></div>
+									<select class="js-select__select" size="1">
+											<option selected value="Выберите город">Выберите город</option>
+											<option value="test1">test1</option>
+											<option value="test2">test2</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<input placeholder="№ Склада" type="text" class="row__input">
+							</div>
+							<div class="row row_100">
+								<input type="radio" id="l5" name="rr" checked/>
+								<label for="l5"><span class="radio"><i></i></span>Самовывоз</label>
+							</div>
+							<div class="row row_135">
+								<input type="radio" id="l6" name="rr" checked/>
+								<label for="l6"><span class="radio"><i></i></span>Доставка по адресу</label>
+							</div>
 						</div>
 					</form>
 				</div>
-				<div class="chiken">
+				<div class="chiken chiken_large">
 					<div class="chiken__arr"></div>
 					<div class="chiken__desc">
 						<div>К уплате</div>

@@ -94,5 +94,58 @@ $(document).ready(function() {
 	    $(".input_drop-down").focusout(function(){
 	        $(this).next().fadeOut("fast");
 	    });
+
+	/////////////////////////////// SELECT 1
+	// for select
+	$(".js-select__select").change(function(){
+	    var text = $(this).val();
+	    $(".js-select").text(text);
+	});
+
+	// for select return first val "prog"
+	var text = $(".js-select__select").val();
+	$(".js-select").text(text);
+
+	// for select selected "post"
+	$(".js-select__select").change(function(){
+	    var text = $(this).val();
+	    $(".js-select").text(text);
+	});
+
+	/////////////////////////////// SELECT 2
+	// for select
+	$(".js-select__select2").change(function(){
+	    var text = $(this).val();
+	    $(".js-select2").text(text);
+	});
+
+	// for select return first val "prog"
+	var text = $(".js-select__select2").val();
+	$(".js-select2").text(text);
+
+	// for select selected "post"
+	$(".js-select__select2").change(function(){
+	    var text = $(this).val();
+	    $(".js-select2").text(text);
+	});
+
+	/////////////////////////////// SELECT 3
+	// for select
+	$(".js-select__select3").change(function(){
+	    var text = $(this).val();
+	    $(".js-select3").text(text);
+	});
+
+	// for select return first val "prog"
+	var text = $(".js-select__select3").val();
+	$(".js-select3").text(text);
+
+	// for select selected "post"
+	$(".js-select__select3").change(function(){
+	    var text = $(this).val();
+	    $(".js-select3").text(text);
+	});
 });
+
+
 

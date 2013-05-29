@@ -7,7 +7,13 @@
 	height: 9px;
 	margin-bottom: 1px;
 }
-
+.select-orders{
+	float: right;
+	color: #666;
+	select{
+		color: #666;
+	}
+}
 .content__main_textpage{
 	.sidebar{
 		position: relative;
@@ -412,6 +418,7 @@
 }
 /////// #7
 .cabinet_page7{
+	@extend %clr;
 	h2{
 		margin-bottom: 5px;
 	}

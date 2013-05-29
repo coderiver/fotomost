@@ -138,3 +138,12 @@
 .all-price .all-price__price { font-size: 24px; }
 
 .cabinet_alt .all-price { margin-top: 5px; float: right; }
+
+.row_cab9 { width: 100%; }
+.row_cab9 .row__notes { display: inline-block; font-size: 11px; margin-left: 12px; color: #999; }
+
+.cab__submit_noMargin { margin-bottom: 0; }
+
+.enter-client { font-weight: bold; }
+
+.remember-pass { border-bottom: 0 !important; }

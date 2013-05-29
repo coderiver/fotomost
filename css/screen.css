@@ -382,6 +382,15 @@ form { display: inline-block; }
 
 .cabinet_alt .all-price { margin-top: 5px; float: right; }
 
+.row_cab9 { width: 100%; }
+.row_cab9 .row__notes { display: inline-block; font-size: 11px; margin-left: 12px; color: #999; }
+
+.cab__submit_noMargin { margin-bottom: 0; }
+
+.enter-client { font-weight: bold; }
+
+.remember-pass { border-bottom: 0 !important; }
+
 .cabinet_alt, .cabinet_page7, .tov, .superform, .stack .stack__select, .cabinet_checkout { *zoom: 1; }
 .cabinet_alt:before, .cabinet_page7:before, .tov:before, .superform:before, .stack .stack__select:before, .cabinet_checkout:before, .cabinet_alt:after, .cabinet_page7:after, .tov:after, .superform:after, .stack .stack__select:after, .cabinet_checkout:after { content: " "; display: table; }
 .cabinet_alt:after, .cabinet_page7:after, .tov:after, .superform:after, .stack .stack__select:after, .cabinet_checkout:after { clear: both; }

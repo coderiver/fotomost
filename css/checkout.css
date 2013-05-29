@@ -1,6 +1,6 @@
-.superform, .stack .stack__select { *zoom: 1; }
-.superform:before, .stack .stack__select:before, .superform:after, .stack .stack__select:after { content: " "; display: table; }
-.superform:after, .stack .stack__select:after { clear: both; }
+.superform, .stack .stack__select, .cabinet_checkout { *zoom: 1; }
+.superform:before, .stack .stack__select:before, .cabinet_checkout:before, .superform:after, .stack .stack__select:after, .cabinet_checkout:after { content: " "; display: table; }
+.superform:after, .stack .stack__select:after, .cabinet_checkout:after { clear: both; }
 
 .chip-note__tov { text-decoration: underline; }
 .chip-note__tov:hover { cursor: pointer; text-decoration: none; }
@@ -23,7 +23,7 @@
 
 .sidebar_order .nav-order { min-height: 635px; background-color: #d3eaf8; border-radius: 0 10px 0 10px; line-height: 2; padding: 20px; }
 .sidebar_order .nav-order ul { list-style: none; }
-.sidebar_order .nav-order h4 { margin-top: -10px; font-size: 16px; color: #666666; }
+.sidebar_order .nav-order h4 { margin-top: -10px; font-size: 16px; font-weight: normal; color: #666666; }
 .sidebar_order .nav-order .users { margin-left: 5px; }
 .sidebar_order .nav-order .users__adress { line-height: 1.4; }
 .sidebar_order .nav-order .users__tel { text-decoration: underline; }
@@ -67,3 +67,12 @@
 
 .overpayment { color: #666; font-size: 12px; }
 .overpayment .overpayment__summ { display: inline-block; color: #ff9900; font-size: 18px; }
+
+.cabinet_checkout .noborder { margin-top: 15px; margin-bottom: 10px; }
+.cabinet_checkout .row { width: 230px; margin-right: 10px; float: left; }
+.cabinet_checkout .row input { width: 220px; color: #666; }
+.cabinet_checkout .row .subm { width: auto; margin-top: 6px; color: #ff6600; text-decoration: underline; border: 0; background: none; }
+.cabinet_checkout .row .subm:hover { cursor: pointer; text-decoration: none; }
+.cabinet_checkout textarea { min-width: 452px; max-width: 695px; min-height: 43px; border: 1px solid #CDCDCD; border-radius: 4px; width: 220px; padding: 5px; color: #666; }
+
+.superform_noMarginBottom { margin-bottom: 0px; }

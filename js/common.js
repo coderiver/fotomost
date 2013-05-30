@@ -145,6 +145,50 @@ $(document).ready(function() {
 	    var text = $(this).val();
 	    $(".js-select3").text(text);
 	});
+
+	// for page CHECKOUT
+	// $(".superform input").click(function() {
+	// 	$('.superform input').removeClass("active");
+	// 	$(this).addClass('active');
+
+	// 	if ($('#r1').hasClass('active'), $('#l2').hasClass('active')) {
+	// 		$('.cabinet_checkout').css('display','block');
+	// 	}
+	// 	else {
+	// 		$('.cabinet_checkout').css('display','none');
+	// 	}
+	// });
+
+	$('.superform input').click(function() {
+	    if( $('#r1').is(':checked') && $('#l2').is(':checked')) {
+	        $('.cabinet_checkout').css('display','block');
+	    }
+	    else {
+	        $('.cabinet_checkout').css('display','none');
+	    }
+
+	    if( $('#l4').is(':checked')) {
+	    	$('.stack__select_r').css('display','block');
+	    }
+	    else {
+	        $('.stack__select_r').css('display','none');
+	    }
+
+	    if( $('#r4').is(':checked')) {
+	    	$('.stack__select_l').css('display','block');
+	    }
+	    else {
+	        $('.stack__select_l').css('display','none');
+	    }
+
+	    if( $('#l4').is(':checked') || $('#r4').is(':checked')) {
+	    	$('.superform').addClass('superform_large');
+	    }
+	    else{
+	    	$('.superform').removeClass('superform_large');
+	    }
+	});
+
 });
 
 

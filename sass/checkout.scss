@@ -106,9 +106,9 @@
 	@extend %clr;
 	width: 741px;
 	margin-top: 15px;
-	margin-bottom: 60px;
+	// margin-bottom: 60px;
 	position: relative;
-	padding: 18px 0 12px 9px;
+	padding: 10px 0 0px 9px;
 	border: 1px solid #81cde6;
 	border-radius: 5px;
 }
@@ -163,6 +163,7 @@
 			}
 		}
 		.row_100, .row_135{
+			margin-top: 5px;
 			float: left;
 		}
 		.row_100{
@@ -177,6 +178,9 @@
 	}
 	.stack__select_noMargin{
 		margin-left: 0;
+	}
+	.stack__select_l, .stack__select_r{
+		display: none;
 	}
 	.row{
 		width: 100%;
@@ -221,7 +225,7 @@
 		left: 0;
 	}
 	.chiken__desc{
-		margin-top: 13%;
+		margin-top: 30px;
 		padding-left: 35px;
 		line-height: 1.2;
 	}
@@ -230,10 +234,9 @@
 	}
 }
 .superform_large{
-	padding: 10px 0 0px 9px;
 	.chiken{
 		.chiken__desc{
-			margin-top: 32%;
+			margin-top: 65px;
 		}
 	}
 }
@@ -248,6 +251,8 @@
 }
 .cabinet_checkout{
 	@extend %clr;
+	margin-bottom: 25px;
+	display: none;
 	.noborder{
 		margin-top: 15px;
 		margin-bottom: 10px;

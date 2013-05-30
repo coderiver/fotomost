@@ -198,7 +198,7 @@ $(document).ready(function() {
 		}
 		else {
 			($(this).addClass('open'));
-			 $('.hide').css('display','block');
+			 $('.hide').css('display','inline');
 			 $(this).text('Свернуть');
 		}
 		// $(this).text('Подробнее');

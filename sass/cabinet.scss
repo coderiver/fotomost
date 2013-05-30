@@ -538,3 +538,32 @@
 .remember-pass{
 	border-bottom: 0 !important;
 }
+
+
+
+////// filters
+.nav-filters{
+	li{
+		position: relative;
+	}
+}
+.cross{
+	@include sized-sprite($icons, cross);
+	position: absolute;
+	top: 8px;
+	left: -14px;
+	&:hover{
+		cursor: pointer;
+	}
+}
+.ok{
+	@include sized-sprite($icons, ok);
+	position: absolute;
+	top: 8px;
+	left: -14px;
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+

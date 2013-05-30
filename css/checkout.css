@@ -77,3 +77,5 @@
 .cabinet_checkout textarea { min-width: 452px; max-width: 695px; min-height: 43px; border: 1px solid #CDCDCD; border-radius: 4px; width: 220px; padding: 5px; color: #666; }
 
 .superform_noMarginBottom { margin-bottom: 0px; }
+
+.hide { display: block; }

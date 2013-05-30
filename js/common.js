@@ -189,6 +189,22 @@ $(document).ready(function() {
 	    }
 	});
 
+	$('.link-compare a').click(function() {
+		if  ($(this).hasClass('open')) {
+
+			($(this).removeClass('open'));
+			 $('.hide').css('display','none');
+			 $(this).text('Подробнее');
+		}
+		else {
+			($(this).addClass('open'));
+			 $('.hide').css('display','block');
+			 $(this).text('Свернуть');
+		}
+		// $(this).text('Подробнее');
+	});
+
+
 });
 
 

@@ -766,6 +766,8 @@ div.btn-credit { display: inline-block; background: url('../img/icons-s953d24238
 
 .superform_noMarginBottom { margin-bottom: 0px; }
 
+.hide { display: block; }
+
 .lteie8 body { background: white; }
 .lteie8 .primary-nav ul { background: url(../img/primary-nav-bg.png) repeat-x #6abae7; }
 .lteie8 .primary-nav ul ul { background: none; background-color: #80c4ea; }

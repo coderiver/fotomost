@@ -1,11 +1,11 @@
 .page-nav { color: #999; font-size: 12px; position: relative; }
 .page-nav .pages { color: #666; font-size: 12px; }
 .page-nav .pages.pages_current { border: 1px solid #9a9a9a; border-radius: 3px; padding: 0 4px; width: 15px; display: inline-block; text-align: center; }
-.page-nav .prev { background: url('../img/icons-s7ee3a06e82.png') 0 -2272px no-repeat; width: 8px; height: 14px; content: ""; position: absolute; top: 1px; left: -15px; cursor: default; }
-.page-nav .prev.active { background: url('../img/icons-s7ee3a06e82.png') 0 -238px no-repeat; width: 8px; height: 14px; cursor: pointer; }
-.page-nav .next { background: url('../img/icons-s7ee3a06e82.png') 0 -262px no-repeat; width: 8px; height: 14px; content: ""; position: absolute; top: 1px; right: -15px; cursor: default; }
-.page-nav .next.active { background: url('../img/icons-s7ee3a06e82.png') 0 -2248px no-repeat; width: 8px; height: 14px; cursor: pointer; }
+.page-nav .prev { background: url('../img/icons-s953d242382.png') 0 -2537px no-repeat; width: 8px; height: 14px; content: ""; position: absolute; top: 1px; left: -15px; cursor: default; }
+.page-nav .prev.active { background: url('../img/icons-s953d242382.png') 0 -238px no-repeat; width: 8px; height: 14px; cursor: pointer; }
+.page-nav .next { background: url('../img/icons-s953d242382.png') 0 -262px no-repeat; width: 8px; height: 14px; content: ""; position: absolute; top: 1px; right: -15px; cursor: default; }
+.page-nav .next.active { background: url('../img/icons-s953d242382.png') 0 -2513px no-repeat; width: 8px; height: 14px; cursor: pointer; }
 
 .stars { display: inline-block; }
-.stars .star { display: inline-block; background: url('../img/icons-s7ee3a06e82.png') 0 -2003px no-repeat; width: 12px; height: 12px; }
-.stars .chosen { background: url('../img/icons-s7ee3a06e82.png') 0 -2226px no-repeat; width: 12px; height: 12px; }
+.stars .star { display: inline-block; background: url('../img/icons-s953d242382.png') 0 -2042px no-repeat; width: 12px; height: 12px; }
+.stars .chosen { background: url('../img/icons-s953d242382.png') 0 -2471px no-repeat; width: 12px; height: 12px; }
